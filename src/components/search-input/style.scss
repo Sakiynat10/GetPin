@@ -1,15 +1,19 @@
+
+
 .search-input{
-    margin-top: -40px;
+    position: relative;
     width: 100%;
     letter-spacing: -0.64px;
     font-size: 16px;
+    margin-top: -62px;
+    margin-bottom: 38px;
     display: flex;
-    position: relative;
     align-items: center;
     border: none;
     outline: none;
     color: #131313;
-    background-color: transparent;
+    transition: 1s;
+    z-index: 200;
     input{
         padding: 5px 10px 5px 28px;
         font-size: 16px;

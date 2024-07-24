@@ -1,11 +1,17 @@
 #hero{
+    padding-top: 80px;
     margin-top: 10px;
+    position: relative;
+    .hero-content{
+    }
     .category-training{
+        position: relative;
         display: flex;
         flex-wrap: wrap;
         max-width: 662px;
         width: 100%;
         gap: 10px;
+        z-index: 200;
         margin-bottom: 30px;
         li{
             margin-right: 10px;
@@ -20,12 +26,27 @@
             }
         }
     }
+    .category-fixed{
+        position: fixed;
+        z-index: 200;
+        top: 16px;
+    }
+    .none{
+        display: none;
+    }
+    .space{
+        height: 78px;
+    }
     .adv-content{
         position: relative;
+        border-radius: 2px;
         height: 90px;
         width: 100%;
         object-fit: cover;
         object-position: center;
+        img{
+            border-radius: 2px;
+        }
     }
 }
 

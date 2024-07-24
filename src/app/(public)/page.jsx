@@ -1,47 +1,13 @@
-import NavLink from "@/components/navlink";
 import "./style.scss";
 
 import { Fragment } from "react";
 import Image from "next/image";
 import CheckBox from "@/components/checkbox";
-import TrainCard from "@/components/train-card";
-import TrainBtn from "@/components/train-btn";
+import TrainCategory from "@/components/train-category";
+import TrainCard from './../../components/train-card/index';
+import SearchInput from "@/components/search-input";
 
-export const categoryData = [
-  {
-    p: "Мастер класс",
-  },
-  {
-    p: "Тренинги",
-  },
-  {
-    p: "Интеллектуальные шоу",
-  },
-  {
-    p: "Вечера",
-  },
-  {
-    p: "Конкурсы",
-  },
-  {
-    p: "Марафоны",
-  },
-  {
-    p: "Маркетинг",
-  },
-  {
-    p: "Образование",
-  },
-  {
-    p: "ИТ",
-  },
-  {
-    p: "Культура",
-  },
-  {
-    p: "Бизнес",
-  },
-];
+
 
 export const categoryInfos = [
   {
@@ -62,14 +28,9 @@ export default function Home() {
   return (
     <Fragment>
       <section id="hero">
+        <SearchInput/>
         <div className="container-1040">
-          <ul className="category-training">
-            {categoryData?.map((el, i) => (
-              <li key={i}>
-                <NavLink href="">{el.p}</NavLink>
-              </li>
-            ))}
-          </ul>
+          <TrainCategory/>
           <div className="adv-content">
             <Image fill src={"/advertisment.png"} alt="adv" />
           </div>

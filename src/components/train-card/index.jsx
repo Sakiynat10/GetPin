@@ -1,9 +1,9 @@
 "use client"
 
 import Image from "next/image";
-import trainCard from "@/data";
 import "./style.scss"
 import VideoPlayer from './../video-player/index';
+import { trainCard } from '@/data';
 
 
 
