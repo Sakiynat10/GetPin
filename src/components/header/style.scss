@@ -1,0 +1,45 @@
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .nav-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav-logo{
+            color: #131313;
+            font-family: "Righteous";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.8px;
+        }
+    }
+    .account{
+        display: flex;
+        align-items: center;
+        z-index: 5;
+        .account-title{
+            color: #131313;
+            text-align: center;
+            font-family: "SF Pro Text"  ,sans-serif;
+            font-size: 16px;
+            padding: 16px 18px;
+            border-radius: 42px;
+            background-color: #FFEC41;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.64px;
+            margin-right: -15px;
+        }
+        .account-img{
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: 3px solid #fff;
+            border-radius: 50px;
+        }
+    }
+}

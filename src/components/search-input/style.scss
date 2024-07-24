@@ -1,0 +1,32 @@
+.search-input{
+    margin-top: -40px;
+    width: 100%;
+    letter-spacing: -0.64px;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: #131313;
+    background-color: transparent;
+    input{
+        padding: 5px 10px 5px 28px;
+        font-size: 16px;
+        border-radius: 50px;
+        max-width: 500px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    .search-btn{
+        position: absolute;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        left: 0px;
+        width: 18px;
+        height: 18px;
+    }
+}
