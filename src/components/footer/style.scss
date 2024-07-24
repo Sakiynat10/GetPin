@@ -1,0 +1,95 @@
+footer{
+    padding-top: 90px;
+    .footer-logo{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        a{
+            color: #131313;
+            font-family: "Righteous";
+            font-size: 40px;
+            font-weight: 400;
+            letter-spacing: -0.8px;
+        }
+        span{
+            display: inline-block;
+            color: #131313;
+            font-size: 12px;
+            font-weight: 400;
+            margin-bottom: 31px;
+        }
+    }
+    .footer-content{
+        display: grid;
+        grid-template-columns: 366px 396px;
+        gap: 117px;
+        padding-bottom: 50px;
+        border-bottom: 2px solid  #E4E4E4;
+        .content-left{
+            display: flex;
+            gap: 25px;
+            .footer-medias{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 5px;
+                height: 125px;
+                width: 125px;
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    width: 60px;
+                    height: 60px;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        object-fit: contain;
+                    }
+                }
+            }
+            .footer-contact{
+                .contact-number , .contact-email{
+                    span{
+                        color: #131313;
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                    p{
+                        color: #131313;
+                        font-size: 22px;
+                        font-weight: 400;
+                    }
+                }
+                .contact-number{
+                    margin-top: 9px;
+                }
+                .contact-email{
+                    margin-top: 18px;
+                }
+            }
+        }
+        .content-right{
+
+          p{
+            color: #131313;
+            font-size: 12px;
+            font-weight: 400;
+          }
+          .right-title{
+            margin-bottom: 19px;
+          }
+        }
+    }
+    .footer-bottom{
+        display: flex;
+        gap: 20px;
+        margin-top: 29px;
+        margin-bottom: 29px;
+        p , span{
+            color: #131313;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
