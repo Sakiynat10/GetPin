@@ -5,12 +5,22 @@
   margin-bottom: 48px;
   .train-card {
     position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border:none;
+    cursor: pointer;
     border-radius: 2px;
     padding: 40px 40px 52px;
     background-color: #fff;
     max-width: 515px;
     width: 100%;
     margin-bottom: 10px;
+    .design-title{
+      border: 1px solid #E4E4E4;
+      background-color: #fff;
+      padding: 12px 22px;
+      border-radius: 100px;
+    }
     .train-date-contents {
       display: flex;
       align-items: center;
@@ -45,7 +55,9 @@
     .train-titles {
       width: 290px;
       margin-bottom: 22px;
-      h1 {
+      display: grid;
+      grid-template-columns:1fr;
+      h1{
         display: inline-block;
         padding-right: 5px;
         color: #131313;
@@ -54,6 +66,11 @@
         line-height: 28px; /* 116.667% */
         letter-spacing: -0.48px;
         transition: 0.5s;
+        text-align: left;
+      }
+      .bottom{
+        text-align: left;
+        width: 115px;
       }
     }
     .trainers {
@@ -76,6 +93,9 @@
       gap: 24px;
       margin-bottom: 33px;
       div {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
         span {
           color: #131313;
           font-size: 11px;
@@ -91,7 +111,11 @@
           font-weight: 400;
           transition: 0.5s;
           border-bottom: 1px solid transparent !important;
+          &:hover{
+            border-bottom: 1px solid #131313 !important;
+          }
         }
+        
       }
     }
     .train-subtitle {
@@ -100,6 +124,7 @@
       font-weight: 400;
       letter-spacing: -0.2px;
       opacity: 0.4;
+      text-align: left;
     }
     .train-video {
       position: absolute;
@@ -108,6 +133,7 @@
       width: 148px;
       height: 148px;
       border-radius: 50px;
+      z-index: 10;
       .mute {
         background-color: transparent;
         position: absolute;
@@ -155,7 +181,7 @@
           right: 0px;
           border-radius: 50%;
           object-fit: cover;
-          animation: myfirst 1s forwards;
+          animation: myfirst 0.5s forwards;
           transition: 0.5s;
           @keyframes myfirst {
             from {
@@ -166,7 +192,7 @@
             }
             to {
               top: 0px;
-              right: 0px;
+              right: -15px;
               width: 148px;
               height: 148px;
             }
@@ -178,7 +204,7 @@
           @keyframes myfirst2 {
             from {
               bottom: 54px;
-              left: 50%;
+              left: 60%;
               width: 0px;
               height: 0px;
               display: none;
@@ -187,6 +213,7 @@
               bottom: 9px;
               width: 32px;
               height: 32px;
+              left: 50%;
               display: flex;
             }
           }
@@ -196,10 +223,11 @@
           }
         }
       }
-      .training-infos{
-          a{
-            border-bottom: 1px solid #131313 !important;
-          }
+      .video-content{
+        width: 100%;
+        height:100px;
+        position: relative;
+        left: 0;
       }
     }
   }

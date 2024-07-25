@@ -123,6 +123,9 @@ export default function Home() {
               <div className="speaker-img">
                 <Image fill src={"/speaker-7.png"} alt="speaker-1" />
               </div>
+              <div className="speaker-img">
+                <Image fill src={"/speaker-8.png"} alt="speaker-1" />
+              </div>
             </div>
           </div>
         </div>

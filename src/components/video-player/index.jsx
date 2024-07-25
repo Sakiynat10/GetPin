@@ -1,34 +1,86 @@
-// components/VideoPlayer.js
-import { useState, useRef } from "react";
-import Image from "next/image";
-import styles from "./style.scss"; // CSS module for styling
+"use client";
+import { useState, useRef, useEffect } from "react";
+import "./style.scss";
 
-const VideoPlayer = ({ src }) => {
-//   const [isMuted, setIsMuted] = useState(false);
-//   const videoRef = useRef(null);
+const VideoPlayer = ({ autoPlay, src }) => {
+  const [isMuted, setIsMuted] = useState(true); // Initial state is muted
+  const videoRef = useRef(null);
+  console.log(autoPlay);
 
-//   const toggleMute = () => {
-//     if (videoRef.current) {
-//       videoRef.current.muted = !isMuted;
-//       setIsMuted(!isMuted);
-//     }
-//   };
+  const [startX, setStartX] = useState(0);
+  const [startY, setStartY] = useState(0);
+  const [offsetX, setOffsetX] = useState(0);
+  const [offsetY, setOffsetY] = useState(0);
+  const [isDragging, setIsDragging] = useState(false);
 
-const [isMuted, setIsMuted] = useState(true); // Initial state is muted
-const videoRef = useRef(null);
+  const onMouseDown = (e) => {
+    setStartX(e.clientX);
+    setStartY(e.clientY);
+    setIsDragging(true);
+  };
 
-const toggleMute = () => {
-  setIsMuted(prevIsMuted => !prevIsMuted); // Toggle the mute state
-  if (videoRef.current) {
-    videoRef.current.muted = !isMuted;
-  }
-};
+  const onMouseMove = (e) => {
+    if (!isDragging) return;
+    const newOffsetX = offsetX + (e.clientX - startX);
+    const newOffsetY = offsetY + (e.clientY - startY);
+    setOffsetX(newOffsetX);
+    setOffsetY(newOffsetY);
+    setStartX(e.clientX);
+    setStartY(e.clientY);
+  };
+
+  const onMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  useEffect(() => {
+    if (isDragging) {
+      document.addEventListener("mousemove", onMouseMove);
+      document.addEventListener("mouseup", onMouseUp);
+    } else {
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mouseup", onMouseUp);
+    }
+
+    return () => {
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mouseup", onMouseUp);
+    };
+  }, [isDragging, onMouseMove]);
+
+  const toggleMute = () => {
+    setIsMuted((prevIsMuted) => !prevIsMuted); // Toggle the mute state
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+    }
+  };
 
   return (
-    <div>
-      <video autoPlay loop muted = {isMuted} src="/sport.mp4" className="video"></video>
-      <div className="mute" onClick={toggleMute}>
-        {isMuted ? <img src="/un-volume.svg" alt="volume" /> : <img src="/volumee.svg"/>}
+    <div
+      className="video-content"
+      onMouseDown={onMouseDown}
+      style={{
+        position: "absolute",
+        top: `${offsetY}px`,
+        left: `${offsetX}px`,
+        cursor: "move",
+      }}
+    >
+      <div onClick={(event) => event.stopPropagation()} id="card">
+        <video
+          autoPlay
+          loop
+          muted={isMuted}
+          src={src}
+          className="video"
+        ></video>
+        <div className="mute" onClick={toggleMute}>
+          {isMuted ? (
+            <img src="/un-volume.svg" alt="volume" />
+          ) : (
+            <img src="/volumee.svg" />
+          )}
+        </div>
       </div>
     </div>
   );
