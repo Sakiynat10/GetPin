@@ -4,6 +4,8 @@ import SearchInput from "../search-input";
 
 import { useEffect, useState } from "react";
 import "./style.scss";
+import { URLSearchParams, useParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const Header = () => {
   const [isShrunk, setIsShrunk] = useState(false);
@@ -22,14 +24,26 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // const router = useRouter();
+  // const { query } = router;
+
+  // useEffect(() => {
+  //   if (query?.myParam) {
+  //     console.log('Query param:', query.myParam);
+  //   }
+  // }, [query]);
+  // console.log(router);
+  // console.log(useParams);
+  // console.log("Asilbek");
   return (
     <header>
       <nav className="container">
         <div className="nav-top">
           <a className="nav-logo" href="/">
-            Getpin
+            Getpin 
           </a>
-          <a className="account" href="account">
+          <a className="account" href="/account">
             <span className="account-title">Добавить объявления</span>
             <span className="account-img">
               <Image fill src="/speaker-2.png" />

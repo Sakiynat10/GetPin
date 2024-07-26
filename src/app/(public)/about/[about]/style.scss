@@ -1,0 +1,259 @@
+
+#about{
+    padding-top: 90px;
+    .search-input{
+        position: fixed !important;
+    }
+    .page-tabs{
+        display:flex;
+        gap:16px;
+        a{
+            color: #282828;
+            font-size: 12px;
+            font-weight: 400;
+            opacity: 0.5;
+        }
+    }
+    .about-contents{
+        display: grid;
+        grid-template-columns: 713px 271px;
+        gap: 27px;
+        margin-top:16px;
+        .about-content-left{
+            display:grid;
+            grid-template-columns:54px 654px;
+            gap:5px;
+            .about-content-medias{
+                display: flex;
+                gap: 1px;
+                flex-direction: column;
+                a{
+                    display:inline-block;
+                    width:54px;
+                    height:54px;
+                    padding: 17px;
+                    background-color:#fff;
+                    img{
+                        width:20px;
+                        height: 20px;
+                    }
+                    &:first-child{
+                        border-radius: 4px 4px 0px 0px;
+                    }
+                    &:last-child{
+                        border-radius: 0px 0px 4px 4px;
+
+                    }
+                }
+            }
+            .media-fixed{
+                position:fixed;
+                top:80px;
+            }
+            .about-content-infos{
+                padding:40px 44px 69px 53px;
+                background-color:#fff;
+                border-radius:4px;
+                h1{
+                    color: #282828;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 45px; /* 112.5% */
+                }
+                .left-speaker-infos{
+                    margin-top:32px;
+                    .infos-top{
+                        display: flex;
+                        gap: 32px;
+                        p{
+                            color: #131313;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .top-data{
+                            display: flex;
+                            align-items: center;
+                            gap: 3px;
+                            span{
+                                display:inline-block;
+                                height:13px;
+                                font-size: 11px;
+                                font-weight: 500;
+                            }
+    
+                        }
+                        .top-shares{
+                            display: flex;
+                            gap: 28px;
+                            .shares , .viewers{
+                                display: flex;
+                                .viewers-img , .shares-img{
+                                    position: relative;
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                            }
+                        }
+                    }
+                    .infos-speaker-images{
+                        margin-top: 42px;
+                        display: flex;
+                        gap: 10px;
+                        .speaker-img-info{
+                            .speaker-img{
+                                position: relative;
+                                width: 180px;
+                                height: 180px;
+                            }
+                            h2{
+                                margin-top: 16px;
+                                color: #282828; 
+                                text-align: center;
+                                font-size: 13px;
+                                font-weight: 700;
+                            }
+                            h3{
+                                margin-top: 4px;
+                                color: #282828;
+                                text-align: center;
+                                font-size: 10px;
+                                font-weight: 400;
+                                opacity: 0.5;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+                .about-content-descriptions{
+                    margin-top: 62px;
+                    .desc-title , ul li , .sign-desc , .star-final{
+                        display:flex;
+                        gap:3px;
+                        div{
+                            position: relative;
+                            width:16px;
+                            height:16px;
+                            margin-top: 2px;
+                        }
+                        span{
+                            opacity:0.5;
+                        }
+                        .title-img{
+                            width:25px;
+                            height:16px;
+                        }
+                        .sign-img{
+                            width: 30px;
+                        }
+                        p{
+                            color: #282828;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 24px; /* 160% */
+                        }
+                    }
+                    ul{
+                        margin-bottom: 30px;
+                    }
+                    .desc-title ,  .speaker-description ,.awards-title , .sign-title , .attend-title , .sign-desc{
+                        margin-bottom:30px;
+                        color: #282828;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 24px; /* 160% */
+                        span{
+                            color: #282828;
+                            font-size: 15px;
+                            font-weight: 700;
+                            line-height: 24px;
+                        }
+                    }
+                    .desc-title{
+                        span{
+                            opacity:1;
+                        }
+                    }
+                    .desc-title{
+                        margin-bottom:30px;
+                    }
+                }
+            }
+        }
+        .left-only{
+            grid-template-columns:714px;
+            .about-content-infos{
+                margin-left:60px;
+            }
+        }
+        .about-content-right{
+            height: 100%;
+            margin-top: 40px;
+            h3{
+                color: #131313;
+                font-size: 17px;
+                font-weight: 400;
+                margin-bottom: 32px;
+            }
+            a{
+                display: inline-block;
+                padding: 20px 29px;
+                color: #131313;
+                font-size: 15px;
+                font-weight: 400;
+                background-color: #A9FFE0;
+                border-radius: 4px;
+                margin-bottom: 32px;
+            }
+            .right-datas{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 16px;
+                width: 210px;
+                span{
+                    color: #131313;
+                    font-size: 11px;
+                    font-weight: 400;
+                }
+                p{
+                    color: #131313;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+            .right-bottom-data{
+                margin-top: 60px;
+                .bottom-data-info{
+                    margin-bottom: 29px;
+                    h1{
+                        color: #282828;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 16px; /* 106.667% */
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        color: #282828;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 16px; /* 133.333% */
+                    }
+                    .p-2{
+                        margin-top: 20px;
+                    }
+                }
+                .bottom-data-contact{
+                    span{
+                        display: inline-block;
+                        color: #000;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 16px; /* 133.333% */
+                        margin-bottom: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

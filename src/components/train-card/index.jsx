@@ -21,7 +21,7 @@ const TrainCard = () => {
           autoPlay={autoPlay}
           onMouseEnter={() => setAutoPlay(true)}
           onMouseLeave={() => setAutoPlay(false)} 
-           onClick={() => router.push(`${el.id}`)}  className="train-card">
+           onClick={() => router.push(`about/${el.id}`)}  className="train-card">
               <div className="train-date-contents">
                 <div className="train-date">
                   <p>{el.train_day}</p>
@@ -61,8 +61,7 @@ const TrainCard = () => {
               </div>
               <div className="train-video"
               >
-                {autoPlay ? <VideoPlayer autoPlay={autoPlay} src={el.video}  className="video-player" />:""}
-                {/* <VideoPlayer  src={el.video} autoPlay={autoPlay} className="video-player" /> */}
+                 {/* <VideoPlayer  src={el.video} autoPlay={autoPlay} className="video-player" /> */}
               </div>
           </button>
         ))}
