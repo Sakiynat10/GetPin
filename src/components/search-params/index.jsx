@@ -1,11 +1,11 @@
-// "use client"
+"use client"
 
-// import { useParams } from "next/navigation";
+import { useParams } from "next/navigation";
 
  
-// export default function SearchBar() {
-//     const pathname = useParams();
-//     console.log(pathname);
+export default function SearchBar() {
+    const pathname = useParams();
+    console.log(pathname);
 
-//   return <>{pathname}</>
-// }
+  return <>{pathname}</>
+}
