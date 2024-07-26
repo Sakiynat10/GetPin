@@ -21,7 +21,7 @@ const TrainCard = () => {
           autoPlay={autoPlay}
           onMouseEnter={() => setAutoPlay(true)}
           onMouseLeave={() => setAutoPlay(false)} 
-           onClick={() => router.push(`about/${el.id}`)}  className="train-card">
+           onClick={() => router.push(`/${el.id}`)}  className="train-card">
               <div className="train-date-contents">
                 <div className="train-date">
                   <p>{el.train_day}</p>
