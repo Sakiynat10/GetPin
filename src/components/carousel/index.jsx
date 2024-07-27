@@ -39,9 +39,8 @@ export default function CarouselSection() {
         className="mySwiper"
       >
           {trainCard.map((el) => (
-            <SwiperSlide>
+            <SwiperSlide key={el.id}>
               <button
-                key={el.id}
                 autoPlay={autoPlay}
                 onMouseEnter={() => setAutoPlay(true)}
                 onMouseLeave={() => setAutoPlay(false)}
