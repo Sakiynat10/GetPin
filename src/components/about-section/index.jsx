@@ -5,6 +5,7 @@ import SearchInput from "../search-input";
 import { useParams } from "next/navigation";
 import { trainCard } from "@/data";
 import Image from "next/image";
+import { FacebookShareButton , TelegramShareButton ,InstagramShareButton} from "next-share";
 
 const AboutSection = () => {
   const pathname = useParams();
@@ -14,6 +15,25 @@ const AboutSection = () => {
 
   const [isShrunk, setIsShrunk] = useState(false);
   const [isShrunk1, setIsShrunk1] = useState(false);
+
+    const [copied, setCopied] = useState(false);
+
+  const handleCopyLink = () => {
+    const textToCopy = 'https://github.com/next-share';
+    navigator.clipboard.writeText(textToCopy).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
+
+  const openInstagram = () => {
+    window.location.href = 'instagram://user?username=yourusername';
+  };
+
+  const shareOnInstagram = () => {
+    const instagramShareUrl = `https://www.instagram.com/sharer.php?u=${"asilbek"}`;
+    window.open(instagramShareUrl, '_blank');
+  };
 
 
   useEffect(() => {
@@ -34,7 +54,7 @@ const AboutSection = () => {
   
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 1600) {
+      if (window.scrollY > 1168) {
         setIsShrunk1(true);
       } else {
         setIsShrunk1(false);
@@ -65,21 +85,30 @@ const AboutSection = () => {
         <div className={isShrunk1 ? "about-contents none-medias-content" : "about-contents"}>
           <div className={isShrunk ? "about-content-left" : "about-content-left"}>
             <div className={isShrunk ? "about-content-medias media-fixed" : "about-content-medias"}>
-              <a href="">
+              <a href={`/${""}`}>
                 <img src="/left-arrow.svg" alt="left-arrow" />
               </a>
-              <a href="">
-                <img src="/telegram.svg" alt="left-arrow" />
-              </a>
-              <a href="">
-                <img src="/facebook.svg" alt="facebook" />
-              </a>
-              <a href="">
+              <TelegramShareButton
+                url={'https://github.com/next-share'}
+                quote={'next-share is a social share buttons for your next React apps.'}
+                hashtag={'#nextshare'
+              }
+              >
+                <img src="/telegram.svg" />
+              </TelegramShareButton>
+              <FacebookShareButton
+                url={'https://github.com/next-share'}
+                quote={'next-share is a social share buttons for your next React apps.'}
+                hashtag={'#nextshare'}
+              >
+                <img src="/facebook.svg" />
+              </FacebookShareButton>
+              <a onClick={handleCopyLink} href="https://www.instagram.com/">
                 <img src="/instagram.svg" alt="instagram" />
               </a>
-              <a href="">
+              <button onClick={handleCopyLink} >
                 <img src="/copy.svg" alt="copy" />
-              </a>
+              </button>
             </div>
             <div className="about-content-infos">
               {result.map((el) => (

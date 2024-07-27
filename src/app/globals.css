@@ -16,7 +16,9 @@ body{
 
 
 
-
+html{
+  cursor: url('/pin.png') , auto;
+}
 
 
 *{
