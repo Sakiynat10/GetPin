@@ -26,6 +26,7 @@
     "react-player": "^2.16.0",
     "sass": "^1.77.8",
     "screenfull": "^6.0.2",
+    "swiper": "^11.1.8",
     "video-player": "^0.0.1"
   },
   "devDependencies": {

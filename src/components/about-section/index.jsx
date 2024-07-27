@@ -13,6 +13,8 @@ const AboutSection = () => {
 
 
   const [isShrunk, setIsShrunk] = useState(false);
+  const [isShrunk1, setIsShrunk1] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +22,22 @@ const AboutSection = () => {
         setIsShrunk(true);
       } else {
         setIsShrunk(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 1600) {
+        setIsShrunk1(true);
+      } else {
+        setIsShrunk1(false);
       }
     };
 
@@ -44,7 +62,7 @@ const AboutSection = () => {
             <a href="/design">То что вам удобна это ux-дизайн </a>
           </li>
         </ul>
-        <div className="about-contents">
+        <div className={isShrunk1 ? "about-contents none-medias-content" : "about-contents"}>
           <div className={isShrunk ? "about-content-left" : "about-content-left"}>
             <div className={isShrunk ? "about-content-medias media-fixed" : "about-content-medias"}>
               <a href="">

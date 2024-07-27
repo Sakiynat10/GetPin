@@ -1,0 +1,245 @@
+#carousel-card{
+    position: relative;
+    padding-bottom: 90px;
+    margin-bottom: 90px;
+    height: 540px;
+    z-index: 3;
+    background-color: #fff;
+    .carousel-title{
+        h1{
+            color: #282828;
+            font-size: 24px;
+            font-weight: 400;
+            padding-top:60px;
+            margin-bottom:54px;
+        }
+    }
+    .train-card {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        border:none;
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 40px 40px 52px;
+        background-color: #fff;
+        max-width: 515px;
+        width: 100%;
+        margin-bottom: 10px;
+        .design-title{
+          border: 1px solid #E4E4E4;
+          background-color: #fff;
+          padding: 12px 22px;
+          border-radius: 100px;
+        }
+        .train-date-contents {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .train-date {
+            display: flex;
+            gap: 3px;
+            align-items: center;
+            p {
+              color: #131313;
+              font-size: 15px;
+              font-weight: 400;
+              letter-spacing: -0.3px;
+            }
+            .line {
+              font-weight: 500;
+              font-size: 12px;
+              color: #131313;
+            }
+          }
+          a {
+            padding: 12px 22px;
+            border: 1px solid #e4e4e4;
+            background: #fff;
+            border-radius: 61px;
+            color: #131313;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        .train-titles {
+          width: 290px;
+          margin-bottom: 22px;
+          display: grid;
+          grid-template-columns:1fr;
+          h1{
+            display: inline-block;
+            padding-right: 5px;
+            color: #131313;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 28px; /* 116.667% */
+            letter-spacing: -0.48px;
+            transition: 0.5s;
+            text-align: left;
+          }
+          .bottom{
+            text-align: left;
+            width: 115px;
+          }
+        }
+        .trainers {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          .img-2 {
+            margin-left: -12px;
+          }
+          .trainer-img {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            border: 2px solid #fff;
+            border-radius: 50px;
+          }
+        }
+        .training-infos {
+          display: flex;
+          gap: 24px;
+          margin-bottom: 33px;
+          div {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            span {
+              color: #131313;
+              font-size: 11px;
+              font-weight: 400;
+            }
+            color: #131313;
+            font-size: 15px;
+            font-weight: 400;
+            a{
+              display: block;
+              color: #131313;
+              font-size: 15px;
+              font-weight: 400;
+              transition: 0.5s;
+              border-bottom: 1px solid transparent !important;
+              &:hover{
+                border-bottom: 1px solid #131313 !important;
+              }
+            }
+            
+          }
+        }
+        .train-subtitle {
+          color: #131313;
+          font-size: 10px;
+          font-weight: 400;
+          letter-spacing: -0.2px;
+          opacity: 0.4;
+          text-align: left;
+        }
+        .train-video {
+          position: absolute;
+          top: 97px;
+          right: 16px;
+          width: 148px;
+          height: 148px;
+          border-radius: 50px;
+          z-index: 10;
+          .mute {
+            background-color: transparent;
+            position: absolute;
+            bottom: 54px;
+            left: 58px;
+            width: 0px;
+            height: 0px;
+            border-radius: 50%;
+            fill: rgba(255, 255, 255, 0.03);
+    
+            stroke-width: 1px;
+            stroke: rgba(255, 255, 255, 0.1);
+            border: 2px solid #ffffff2d;
+            backdrop-filter: blur(12px);
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            img {
+              width: 0px;
+              height: 0px;
+            }
+          }
+          .video {
+            display: none;
+            position: relative;
+            top: 74px;
+            right: 74px;
+            width: 0px;
+            height: 0px;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: 0.5s;
+          }
+        }
+        &:hover {
+          h1 {
+            background-color: #a9ffe0;
+          }
+          .train-video {
+            display: block;
+            .video {
+              display: inline-block;
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              border-radius: 50%;
+              object-fit: cover;
+              animation: myfirst 0.5s forwards;
+              transition: 0.5s;
+              @keyframes myfirst {
+                from {
+                  top: 74px;
+                  right: 74px;
+                  width: 0;
+                  height: 0;
+                }
+                to {
+                  top: 0px;
+                  right: -15px;
+                  width: 148px;
+                  height: 148px;
+                }
+              }
+            }
+            .mute{
+              animation: myfirst2 1s forwards;
+              transition: 0.5s;
+              @keyframes myfirst2 {
+                from {
+                  bottom: 54px;
+                  left: 60%;
+                  width: 0px;
+                  height: 0px;
+                  display: none;
+                }
+                to {
+                  bottom: 9px;
+                  width: 32px;
+                  height: 32px;
+                  left: 50%;
+                  display: flex;
+                }
+              }
+              img{
+                width: 16px;
+                height: 16px;
+              }
+            }
+          }
+          .video-content{
+            width: 100%;
+            height:100px;
+            position: relative;
+            left: 0;
+          }
+        }
+      }
+}
