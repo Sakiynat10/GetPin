@@ -16,7 +16,7 @@ const AboutSection = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 40) {
+      if (window.scrollY > 45) {
         setIsShrunk(true);
       } else {
         setIsShrunk(false);
@@ -32,7 +32,7 @@ const AboutSection = () => {
   return (
     <section id="about">
       <SearchInput />
-      <div className="container-1040">
+      <div className="container-1040 about-container">
         <ul className="page-tabs">
           <li>
             <a href="/">Главная</a>
@@ -45,7 +45,7 @@ const AboutSection = () => {
           </li>
         </ul>
         <div className="about-contents">
-          <div className={isShrunk ? "about-content-left left-only" : "about-content-left"}>
+          <div className={isShrunk ? "about-content-left" : "about-content-left"}>
             <div className={isShrunk ? "about-content-medias media-fixed" : "about-content-medias"}>
               <a href="">
                 <img src="/left-arrow.svg" alt="left-arrow" />

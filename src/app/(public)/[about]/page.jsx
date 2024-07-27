@@ -1,3 +1,5 @@
+import "./style.scss"
+
 import AboutSection from '../../../components/about-section/index';
 
 

@@ -1,0 +1,194 @@
+#about{
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .search-input{
+        position: fixed !important;
+    }
+    .page-tabs{
+        display: flex;
+        gap: 16px;
+        margin-bottom: 16px;
+        a{
+            color: #282828;
+            font-size: 12px;
+            font-weight: 400;
+            opacity:0.5;
+        }
+    }
+    .about-container{
+        .about-contents{
+            position: relative;
+            display:grid;
+            grid-template-columns:654px 270px;
+            margin-left: 59px;
+            gap:27px;
+            .about-content-left{
+                .about-content-medias{
+                    position: absolute;
+                    display: flex;
+                    gap: 1px;
+                    flex-direction: column;
+                    margin-left: -59px;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #fff;
+                        width:54px;
+                        height:54px;
+                        z-index: 2;
+                        &:first-child{
+                            border-top-right-radius: 4px;
+                            border-top-left-radius: 4px;
+                        }
+                        &:last-child{
+                            border-bottom-right-radius: 4px;
+                            border-bottom-left-radius: 4px;
+                        }
+                        img{
+                            opacity: 0.5s;
+                        }
+                    }
+                }
+                .media-fixed{
+                    position:fixed;
+                    margin-top:-45px;
+                    margin-left: -59px;
+                }
+                .about-content-infos{
+                    background-color: #fff;
+                    border-radius: 4px;
+                    padding: 40px 40px 69px 50px;
+    
+                    h1{
+                        color: #282828;
+                        font-size: 40px;
+                        font-weight: 500;
+                        line-height: 45px; /* 112.5% */
+                    }
+                    .left-speaker-infos{
+                        margin-top: 32px;
+                        margin-bottom: 52px;
+                        .infos-top{
+                            margin-bottom: 42px;
+                            display: flex;
+                            gap: 32px;
+                            .top-data , .top-subtitle{
+                               
+                                    color: #131313;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                
+                            }
+                            .top-shares{
+                                display: flex;
+                                gap: 20px;
+                                .shares , .viewers{
+                                    display:flex;
+                                    gap:7px;
+                                    p{
+                                        color: #131313;
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                    }
+                                }
+                                .shares-img , .viewers-img{
+                                    position: relative;
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                            }
+                        }
+                        .infos-speaker-images{
+                            display: flex;
+                            gap: 10px;
+                            .speaker-img-info{
+                                .speaker-img{
+                                    position: relative;
+                                    width: 180px;
+                                    height: 180px;
+                                }
+                                h2{
+                                    margin-top: 16px;
+                                    margin-bottom: 4px;
+                                    color: #282828;
+                                    text-align: center;
+                                    font-size: 13px;
+                                    font-weight: 700;
+                                }
+                                h3{
+                                    color: #282828;
+                                    text-align: center;
+                                    font-size: 10px;
+                                    font-weight: 400;
+                                    opacity:0.5;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                    }
+                    .about-content-descriptions{
+                        width: 100%;
+                        ul li ,  .sign-desc ,  .star-final{
+                            display: flex;
+                            width: 491px;
+                            gap:3px;
+                            span{
+                                opacity: 0.5;
+                            }
+                            div{
+                                position: relative;
+                                margin-top: 2px;
+                                width: 16px;
+                                height: 16px;
+                            }
+                            p{
+                                width: 100%;
+                                color: #282828;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px; /* 160% */
+                            }
+                        }
+                        .desc-title{
+                            display: flex;
+                            gap:3px;
+                            div{
+                                margin-top: 3px;
+                                position: relative;
+                                width: 24px;
+                                height: 16px;
+                            }
+                            p{
+                                span{
+                                    display:inline-block;
+                                    color: #282828 !important;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 24px;
+                                }
+                            }
+                        }
+                        .desc-title ,  .sign-desc ,  .star-final , ul , .awards-title , .speaker-description , .sign-title , .attend-title{
+                                margin-bottom: 30px;
+                                width: 491px;
+                                color: #282828;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px; /* 160% */
+                                width: 500px;
+                                span{
+                                    color: #282828;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 24px;
+                                }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

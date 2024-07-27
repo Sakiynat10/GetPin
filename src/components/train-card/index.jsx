@@ -61,6 +61,7 @@ const TrainCard = () => {
               </div>
               <div className="train-video"
               >
+                {autoPlay ?  <VideoPlayer  src={el.video} autoPlay={autoPlay} className="video-player" />: "" }
                  {/* <VideoPlayer  src={el.video} autoPlay={autoPlay} className="video-player" /> */}
               </div>
           </button>
