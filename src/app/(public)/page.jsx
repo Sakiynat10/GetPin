@@ -93,7 +93,7 @@ export default function Home() {
                   <img src={"/location.svg"} alt="location" />
                   <select className="select" name="language" id="language">
                     <option value="javascript">Tashkent</option>
-                    <option value="python">Farg'ona</option>
+                    <option value="python">Fargona</option>
                     <option value="c++">Andijon</option>
                     <option value="java">Sirdaryo</option>
                     <option value="javascript">Jizzax</option>
@@ -102,7 +102,7 @@ export default function Home() {
                     <option value="java">Surxandaryo</option>
                     <option value="javascript">Buxoro</option>
                     <option value="python">Navoiy</option>
-                    <option value="c++">Qoraqalpog'iston</option>
+                    <option value="c++">Qoraqalpogiston</option>
                   </select>
                 </label>
               </li>
