@@ -44,11 +44,11 @@
     .adv-content{
         position: relative;
         border-radius: 2px;
-        height: 90px;
         width: 100%;
         object-fit: cover;
         object-position: center;
         img{
+            height: 90px;
             border-radius: 2px;
         }
     }
@@ -60,18 +60,104 @@
     .category-infos{
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
         margin-bottom: 34px;
         li{
             a{
                 display: flex;
                 align-items: center;
-                gap: 7px;
+                gap: 2px;
                 color: #131313;
                 text-align: center;
                 font-size: 16px;
                 font-weight: 400;
                 letter-spacing: -0.64px;
+            }
+            label{
+                display: flex;
+                align-items:center;
+                gap:5px;
+                cursor:pointer;
+            }
+            .select{
+                border:none;
+                background:transparent;
+                outline:none;
+                appearance: none;
+                font-size:16px;
+                padding:5px;
+                color: #131313;
+                font-weight: 400;
+                letter-spacing: -0.64px;
+                cursor:pointer;
+            }
+            .ant-picker{
+                border:none;
+                background:transparent;
+                width:100px;
+                padding:0px !important;
+                outline:none;
+                position:relative;
+                color: #131313;
+                ::placeholder{
+                    color:#131313;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: -0.64px;
+                }
+                .anticon{
+                    color: #131313 !important;
+                }
+                cursor:pointer;
+            }
+            .ant-picker-input{
+                display: flex;
+                gap: 7px;
+                flex-direction: row-reverse;
+            }
+            .ant-picker-outlined{
+                outline: none !important;
+            }
+            .ant-picker-focused{
+                outline: none !important;
+                border: none !important;
+            }
+
+            .ant-picker-suffix{
+                background:url("/data.svg");
+                backgroun-repeat:none;
+
+                width:16px;
+                height:16px;
+                svg{
+                    display:none;
+                }
+            }
+            input[type="date"]::-webkit-calendar-picker-indicator {
+                color: rgba(0, 0, 0, 0);
+                opacity: 1;
+                display: block;
+                background: url("/data.svg") no-repeat !important;
+                width: 20px;
+                height: 20px;
+                border-radius:20px;
+                border-width: thin;
+                svg{
+                    fill:red !important;
+                    color:green;
+                }
+            }
+        }
+        .time-picker{
+            .ant-picker-suffix{
+                background:url("/clock.svg");
+                backgroun-repeat:none;
+
+                width:16px;
+                height:16px;
+                svg{
+                    display:none;
+                }
             }
         }
     }

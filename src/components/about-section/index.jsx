@@ -85,7 +85,7 @@ const AboutSection = () => {
         <div className={isShrunk1 ? "about-contents none-medias-content" : "about-contents"}>
           <div className={isShrunk ? "about-content-left" : "about-content-left"}>
             <div className={isShrunk ? "about-content-medias media-fixed" : "about-content-medias"}>
-              <a href={`/${""}`}>
+              <a className="previous-page" href={`/${""}`}>
                 <img src="/left-arrow.svg" alt="left-arrow" />
               </a>
               <TelegramShareButton
@@ -106,7 +106,7 @@ const AboutSection = () => {
               <a onClick={handleCopyLink} href="https://www.instagram.com/">
                 <img src="/instagram.svg" alt="instagram" />
               </a>
-              <button onClick={handleCopyLink} >
+              <button className="copy-img" onClick={handleCopyLink} >
                 <img src="/copy.svg" alt="copy" />
               </button>
             </div>

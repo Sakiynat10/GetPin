@@ -1,3 +1,5 @@
+"use client"
+
 import "./style.scss";
 
 import { Fragment } from "react";
@@ -7,13 +9,56 @@ import TrainCategory from "@/components/train-category";
 import TrainCard from './../../components/train-card/index';
 import SearchInput from "@/components/search-input";
 import Articles from './../../components/article-section/index';
+import { DatePicker, TimePicker } from "antd";
+import { TbCalendarDot } from "react-icons/tb";
+
 
 
 
 export const categoryInfos = [
   {
     img: "/location.svg",
-    title: "Регион",
+    countries:[
+      {
+        count0:"Регион"
+      },
+      {
+        count1:"Tashkent"
+      },
+      {
+        count1:"Namangan"
+      },
+      {
+        count1:"Andijon"
+      },
+      {
+        count1:"Fargona"
+      },
+      {
+        count1:"Sirdaryo"
+      },
+      {
+        count1:"Jizzax"
+      },
+      {
+        count1:"Samarqand"
+      },
+      {
+        count1:"Qashqadaryo"
+      },
+      {
+        count1:"Surxondaryo"
+      },
+      {
+        count1:"Buxoro"
+      },
+      {
+        count1:"Navoiy"
+      },
+      {
+        count1:"Qoraqalpagiston"
+      }
+    ]
   },
   {
     img: "/data.svg",
@@ -26,6 +71,9 @@ export const categoryInfos = [
 ];
 
 export default function Home() {
+  const onChange = (date, dateString) => {
+    console.log(date, dateString);
+  };
   return (
     <Fragment>
       <section id="hero">
@@ -40,14 +88,30 @@ export default function Home() {
       <section id="category">
         <div className="container-1040">
           <ul className="category-infos">
-            {categoryInfos.map((el, i) => (
-              <li key={i}>
-                <a href="">
-                  <img src={el.img} alt={el.title} />
-                  <span>{el.title}</span>
-                </a>
+              <li>
+                <label for="language" >
+                  <img src={"/location.svg"} alt="location" />
+                  <select className="select" name="language" id="language">
+                    <option value="javascript">Tashkent</option>
+                    <option value="python">Farg'ona</option>
+                    <option value="c++">Andijon</option>
+                    <option value="java">Sirdaryo</option>
+                    <option value="javascript">Jizzax</option>
+                    <option value="python">Samarqand</option>
+                    <option value="c++">Qashqadaryo</option>
+                    <option value="java">Surxandaryo</option>
+                    <option value="javascript">Buxoro</option>
+                    <option value="python">Navoiy</option>
+                    <option value="c++">Qoraqalpog'iston</option>
+                  </select>
+                </label>
               </li>
-            ))}
+              <li>
+              <DatePicker placeholder="Дата" />
+              </li>
+              <li className="time-picker">
+              <TimePicker placeholder="Время" />
+              </li>
             <CheckBox />
           </ul>
           <TrainCard />
