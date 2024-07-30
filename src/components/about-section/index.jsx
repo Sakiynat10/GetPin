@@ -19,7 +19,7 @@ const AboutSection = () => {
     const [copied, setCopied] = useState(false);
 
   const handleCopyLink = () => {
-    const textToCopy = 'https://github.com/next-share';
+    const textToCopy = `https://get-pin.vercel.app/${id}`;
     navigator.clipboard.writeText(textToCopy).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -89,7 +89,7 @@ const AboutSection = () => {
                 <img src="/left-arrow.svg" alt="left-arrow" />
               </a>
               <TelegramShareButton
-                url={'https://github.com/next-share'}
+                url={`https://get-pin.vercel.app/${id}`}
                 quote={'next-share is a social share buttons for your next React apps.'}
                 hashtag={'#nextshare'
               }
@@ -97,7 +97,7 @@ const AboutSection = () => {
                 <img src="/telegram.svg" />
               </TelegramShareButton>
               <FacebookShareButton
-                url={'https://github.com/next-share'}
+                url={`https://get-pin.vercel.app/${id}`}
                 quote={'next-share is a social share buttons for your next React apps.'}
                 hashtag={'#nextshare'}
               >

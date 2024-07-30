@@ -49,7 +49,7 @@
               border-bottom-left-radius: 4px;
             }
             img {
-              opacity: 0.4s;
+              opacity: 0.4;
             }
           }
         }
@@ -278,7 +278,6 @@
       position:relative;
       .about-content-left{
         .media-fixed{
-          backgroun-color:red;
           position: absolute;
           display: flex;
           gap: 1px;
