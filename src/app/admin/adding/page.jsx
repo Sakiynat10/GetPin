@@ -49,13 +49,13 @@ const AddingInfos = () => {
               <option value="5">Economist</option>
             </select>
             <select name="" id="" placeholder="Yonalish">
-              <option value="1">Yo'nalish</option>
+              <option value="1">{`Yo'nalish`}</option>
               <option value="2">Backend</option>
               <option value="3">Designer</option>
               <option value="4">Marketolog</option>
               <option value="5">Economist</option>
             </select>
-          </div>
+          </div> 
           <MediaUpload />
           <div className="data-group">
             <div className="address-input">
