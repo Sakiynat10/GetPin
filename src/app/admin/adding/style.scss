@@ -1,8 +1,9 @@
 .add-content{
     background-color: #fff;
-    height:100lvh;
+    height:100%;
     padding-left: 387px;
     position: relative;
+    padding-bottom: 90px;
     .top-content{
         position:fixed;
         width:100%;
@@ -274,6 +275,42 @@
                 margin-right: 0.5rem;
                 margin-top:5px;
               }
+        }
+        .context-groups{
+            padding-top: 120px;
+            div{
+                margin-bottom: 75px;
+                h1{
+                    overflow: hidden;
+                    color: #A6A5AD;
+                    text-overflow: ellipsis;
+                    font-size: 22px;
+                    font-weight: 400;
+                    margin-bottom: 14px;
+
+                }
+                textarea{
+                    border: 1px solid #E3E4E8;
+                    outline: none;
+                    resize: none;
+                    width: 676px;
+                    height: 150px;
+                    padding: 14px 20px;
+                    text-overflow: ellipsis;
+                    font-size: 22px;
+                    font-weight: 400;
+                    &:first-child{
+                        height: 457px;
+                    }
+                    &::placeholder{
+                        overflow: hidden;
+                        color: #A6A5AD;
+                        text-overflow: ellipsis;
+                        font-size: 22px;
+                        font-weight: 400;
+                    }
+                }
+            }
         }
 }}
   

@@ -101,6 +101,28 @@ const AddingInfos = () => {
               </label>
             </div>
           </div>
+          <div className="context-groups">
+            <div className={"context-group"}>
+              <h1>Контекст</h1>
+              <textarea aria-placeholder={"none"}  aria-controls={"none"} placeholder={"пятый текст"}></textarea>
+            </div>
+            <div className={"fee-group"}>
+              <h1>Об оплате</h1>
+              <textarea aria-placeholder={"none"} aria-controls={"none"} placeholder={"Опишите"}></textarea>
+            </div>
+            <div className={"reject-group"}>
+              <h1>Отмена и возврат</h1>
+              <textarea aria-placeholder={"none"} aria-controls={"none"} placeholder={"Напишите"}></textarea>
+            </div>
+            <div className={"describe-group"}>
+              <h1>Возрастные ограничения</h1>
+              <textarea aria-placeholder={"none"} aria-controls={"none"} placeholder={"Опишите"}></textarea>
+            </div>
+            <div className={"describe-group"}>
+              <h1>Возрастные ограничения</h1>
+              <textarea aria-placeholder={"none"} aria-controls={"none"} placeholder={"Опишите"}></textarea>
+            </div>
+          </div>
         </div>
       </div>
     </>
