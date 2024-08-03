@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+
+.active{
+    color:#6900FF !important;
+}
+.admin-aside{
+    padding:12px 24px;
+    max-width:240px;
+    width:100%;
+    height:100vh;
+    position: fixed;
+    z-index: 10;
+    top:0;
+    background-color: #fff;
+    border-right: 1px solid #EFEFEF;
+    .admin-logo{
+
+        color: #121212;
+        font-family: Righteous;
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: -0.8px;
+    }
+    ul{
+        margin-top: 22px;
+        display:flex;
+        flex-direction:column;
+        gap:8px;
+        li{
+            a{
+                color: #121212;
+                font-size: 22px;
+                font-weight: 400;
+            }
+        }
+    }
+}

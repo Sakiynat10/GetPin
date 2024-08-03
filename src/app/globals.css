@@ -26,6 +26,7 @@ html{
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: sans-serif;
 }
 
 ul{
@@ -43,10 +44,23 @@ a{
   margin-right: auto;
 }
 
+.container-676{
+  max-width: 696px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .container-1040{
   max-width: 1060px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.active{
+  color:#6900FF;
 }

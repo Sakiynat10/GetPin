@@ -101,6 +101,8 @@
                 color: #131313;
                 ::placeholder{
                     color:#131313;
+                    margin-top: 5px;
+                    top: 5px;
                     font-size: 16px;
                     font-weight: 400;
                     letter-spacing: -0.64px;
@@ -125,10 +127,10 @@
 
             .ant-picker-suffix{
                 background:url("/data.svg");
-                backgroun-repeat:none;
-
+                background-repeat:none;
                 width:16px;
                 height:16px;
+                margin-top: -2px;
                 svg{
                     display:none;
                 }

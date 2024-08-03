@@ -10,7 +10,6 @@ import TrainCard from './../../components/train-card/index';
 import SearchInput from "@/components/search-input";
 import Articles from './../../components/article-section/index';
 import { DatePicker, TimePicker } from "antd";
-import { TbCalendarDot } from "react-icons/tb";
 
 
 
