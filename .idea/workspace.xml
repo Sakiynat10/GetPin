@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchtrain-card/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/searchtrain-card/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/get-pin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/adding/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/adding/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/categories/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/categories/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/sub-categories/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-input/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-card/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +68,7 @@
       <workItem from="1722689278170" duration="868000" />
       <workItem from="1722691372210" duration="1324000" />
       <workItem from="1722757078550" duration="4683000" />
-      <workItem from="1722791716206" duration="13212000" />
+      <workItem from="1722791716206" duration="13761000" />
     </task>
     <servers />
   </component>

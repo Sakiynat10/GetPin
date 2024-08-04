@@ -15,8 +15,8 @@ const TrainCard = () => {
       <div
         className="train-cards"
       >
-              {trainCard.map((el) => (
-                  <div className={"card-outline"}>
+              {trainCard.map((el , i) => (
+                  <div key={i} className={"card-outline"}>
                   <button
                       key={el.id}
                       autoPlay={autoPlay}
