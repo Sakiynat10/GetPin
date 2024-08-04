@@ -15,10 +15,10 @@
         max-width: 662px;
         width: 100%;
         gap: 10px;
-        z-index: 200;
+        z-index: 197;
         margin-bottom: 30px;
         li{
-            margin-right: 10px;
+            margin-right: 20px;
             a{
                 color: #131313;
                 text-align: center;
@@ -29,10 +29,27 @@
                 letter-spacing: -0.64px;
             }
         }
+        .active-category{
+            position: relative;
+            a{
+                &::before{
+                    position: absolute;
+                    top: 2px;
+                    left: -15px;
+                    content:'';
+                    width: 10px;
+                    height: 10px;
+                    border: 1px solid #131313;
+                    background: #A9FFE0;
+                    border-radius: 50%;
+                ;
+                }
+            }
+        }
     }
     .category-fixed{
         position: fixed;
-        z-index: 200;
+        z-index: 198;
         top: 16px;
     }
     .none{

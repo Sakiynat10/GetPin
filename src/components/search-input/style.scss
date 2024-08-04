@@ -14,8 +14,13 @@
     color: #131313;
     transition: 1s;
     z-index: 200;
+    width: 294px;
+    height: 46px;
+    border-radius:50px;
+    background: #fff;
+    margin-left: -15px;
     input{
-        padding: 5px 10px 5px 28px;
+        padding: 5px 10px 3px 38px;
         font-size: 16px;
         border-radius: 50px;
         max-width: 500px;
@@ -29,8 +34,15 @@
         cursor: pointer;
         border: none;
         background-color: transparent;
-        left: 0px;
+        left: 15px;
         width: 18px;
         height: 18px;
+    }
+}
+
+.search-content{
+    position: relative;
+    .search-content-cards{
+        background: red;
     }
 }

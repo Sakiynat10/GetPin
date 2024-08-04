@@ -38,8 +38,8 @@ const AddingInfos = () => {
         <div className="bottom-content">
           <input className="issue-input" type="text" placeholder="Mavzu" />
           <div className="select-group">
-            <select name="" id="" className="select" placeholder="Kategoriya">
-              <option placeholder="Kategoriya" value="1">
+            <select name="" id="" className="select" >
+              <option  value="1">
                 Kategoriya
               </option>
               <option value="1">Frontend</option>

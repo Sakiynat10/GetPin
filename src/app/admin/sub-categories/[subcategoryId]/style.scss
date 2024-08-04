@@ -1,0 +1,87 @@
+.category-content{
+  margin-left: 387px;
+  padding-bottom: 90px;
+  height: 100vh;
+  width: 676px;
+  .top-content{
+    position:fixed;
+    width:100%;
+    display:flex;
+    align-items: center;
+    height:74px;
+    background-color: #fff;
+    z-index:10;
+    .back-icon{
+      position: absolute;
+      left:-66px;
+      width: 24px;
+      height: 24px;
+      background: #fff;
+      border:none;
+      cursor:pointer;
+      img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+    h3{
+      overflow: hidden;
+      color: #121212;
+      text-overflow: ellipsis;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .add-category{
+      position: fixed;
+      right:0;
+      width:80px;
+      height:74px;
+      border:none;
+      color: #FFF;
+      background: #fff;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button{
+      position: fixed;
+      right:0;
+      width:180px;
+      border:none;
+      color: #FFF;
+      height: 74px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 600;
+      background: #6900FF;
+      cursor: pointer;
+    }
+  }
+  .add-category-input{
+    height: 100vh;
+    padding-top: 100px;
+    width: 100%;
+    input{
+      display: inline-block;
+      padding: 14px 20px;
+      border-radius: 7px;
+      border: 1px solid #E3E4E8;
+      outline: none;
+      width: 100%;
+      color: #A6A5AD;
+      text-overflow: ellipsis;
+      font-size: 22px;
+      font-weight: 400;
+      overflow: hidden;
+      color: #000;
+      text-overflow: ellipsis;
+      font-size: 22px;
+      font-weight: 400;
+      &::placeholder{
+        color: #A6A5AD;
+      }
+    }
+  }
+}

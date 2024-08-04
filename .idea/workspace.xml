@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/searchtrain-card/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/searchtrain-card/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/get-pin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/adding/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/adding/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/categories/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/categories/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/sub-categories/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-input/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-card/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2k8Rok9KmDE4y3ZiJ5H8OSXOxYb" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/user/Desktop/Get-Pin/get-pin/src/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\categories" />
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="" />
+      <created>1722663393288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722663393288</updated>
+      <workItem from="1722663394357" duration="17584000" />
+      <workItem from="1722689278170" duration="868000" />
+      <workItem from="1722691372210" duration="1324000" />
+      <workItem from="1722757078550" duration="4683000" />
+      <workItem from="1722791716206" duration="13212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/admin/categories/[categoryId]/page.jsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/admin/categories/[categoryId]/page.jsx</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/data/index.js</url>
+          <line>247</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/searchtrain-card/index.jsx</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/train-card/index.jsx</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
