@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 
 const Header = () => {
   const [isShrunk, setIsShrunk] = useState(false);
+  const [users, setUsers] = useState("admin");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,12 +44,23 @@ const Header = () => {
           <a className="nav-logo" href="/">
             Getpin 
           </a>
-          <a className="account" href="/account">
-            <span className="account-title">Добавить объявления</span>
-            <span className="account-img">
-              <Image fill src="/speaker-2.png" />
-            </span>
-          </a>
+          <span className="account" >
+            <a href={"/account"} className="account-title">
+              <img src="/plus-header.svg" alt="plus-header"/>
+              Добавить объявления
+            </a>
+            {users === "user" ?
+                <a href={"/register"}  className={"account-sign"}>
+                  Вход
+                  <img src="/inter.svg" alt="inter"/>
+                </a> :
+                <a href={"/account"} className="account-img">
+                  <img src="/speaker-4.png" alt="speaker"/>
+                  <img src="/account-menu.svg" alt="account-menu"/>
+                </a>
+            }
+
+          </span>
         </div>
         {/* <SearchInput isShrunk={isShrunk} /> */}
       </nav>

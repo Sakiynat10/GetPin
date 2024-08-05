@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="" />
+    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/account-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plus-header.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/account/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/account/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/register/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register-form/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register-form/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,19 +38,21 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/Get-Pin/get-pin/src/components",
+    "last_opened_file_path": "C:/Users/user/Desktop/Get-Pin/get-pin/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\public" />
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\register-form" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
     </key>
@@ -68,7 +82,8 @@
       <workItem from="1722689278170" duration="868000" />
       <workItem from="1722691372210" duration="1324000" />
       <workItem from="1722757078550" duration="4683000" />
-      <workItem from="1722791716206" duration="13761000" />
+      <workItem from="1722791716206" duration="14191000" />
+      <workItem from="1722833404949" duration="4089000" />
     </task>
     <servers />
   </component>
@@ -91,19 +106,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data/index.js</url>
           <line>247</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/searchtrain-card/index.jsx</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/train-card/index.jsx</url>
           <line>19</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
