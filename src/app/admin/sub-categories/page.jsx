@@ -11,20 +11,24 @@ import "./style.scss"
 
 const SubCategories = () => {
   const [value , setValue] = useState('')
-  const [valueId , setValueId] = useState('newCategory')
+  const [valueSubCategory , setValueSubCategory] = useState('newCategory')
   const router = useRouter()
   const handleBackClick = () => {
     router.back();
   }
 
-  const handleValue = (e,elem) => {
-    e.preventDefault();
-    setValue(elem.p);
-    setValueId(elem.id)
-    router.push(`/admin/categories/${elem.id}`
+  const subValue6 = categoryData.filter((el) => +el.id === 6).map((el) => el.p)
+
+
+
+  const handleValue = (e,elem , subValue) => {
+    router.push(`/admin/sub-categories/${elem.id}`
     );
-    console.log(router)
+
   }
+
+
+
   return (
       <div className='category-content'>
         <div className="top-content">
@@ -32,21 +36,23 @@ const SubCategories = () => {
             <img src="/left.svg" alt="left" />
           </button>
           <h3>Сабкатегории</h3>
-          <a href={`categories/${valueId}`} className={"add-category"}>
+          <a href={`/admin/sub-categories/newSubCategory`} className={"add-category"}>
             <img src="/plus.svg" alt="plus" />
           </a>
         </div>
-        <ul className={"categories"}>
-          {categoryData.map((el, i) =>
-              <li key={i}>
-                <p>{el.p}</p>
-                <div className={"control-category"}>
-                  <button><img src="/check.svg" alt="like"/></button>
-                  <button><img src="/delete.svg" alt="like"/></button>
-                  <a href={"/admin/[categoryId]"}  onClick={(e) => { handleValue(e, el)}} ><img src="/edit.svg" alt="like"/></a>
-                </div>
-              </li>
-          )}
+        <ul className={"subcategories"}>
+          {categoryData.map((el, i) =>el.subCategoryData.map((elem) => <li key={elem.id}>
+            <p>{el.p}</p>
+            <p>              {elem.p}
+            </p>
+            <div className={"control-category"}>
+              <button><img src="/check.svg" alt="like"/></button>
+              <button><img src="/delete.svg" alt="like"/></button>
+              <button onClick={(e) => {
+                handleValue(e, elem, subValue6)
+              }}><img src="/edit.svg" alt="like"/></button>
+            </div>
+          </li>))}
         </ul>
       </div>
 

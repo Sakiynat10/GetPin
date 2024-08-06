@@ -8,13 +8,15 @@ import {categoryData} from "@/data";
 
 const AddingSubCategory = ({value}) => {
     const router = useRouter();
-    const {categoryId} = useParams();
+    const {subcategoryId} = useParams();
+    console.log(subcategoryId.split("_")[1])
+    console.log();
+    const category = categoryData.filter((el) => el.id === subcategoryId.split("_")[0])[0];
+    const subcategory = category?.subCategoryData.filter((elem => elem.id === subcategoryId))[0].p
+    console.log(subcategory)
     const handleBackClick = () => {
         router.back()
     }
-    console.log(categoryData.filter((el) => el.id === +categoryId).map((el) => el.p))
-    console.log(value)
-    console.log(subcategoryId);
     return(
         <div className='subcategory-content'>
             <div className="top-content">
@@ -25,7 +27,16 @@ const AddingSubCategory = ({value}) => {
                 <button>сохранить</button>
             </div>
             <div className={"add-subcategory-input"}>
-                <input defaultValue={categoryData.filter((el) => el.id === +categoryId).map((el) => el.p)} className={"category-input"} type="text" placeholder={"Kategoriya"} />
+                {subcategory ? <input type="text" placeholder={"Subcategory name"} defaultValue={subcategory}/> :
+                    <input type="text" placeholder={"Subcategory name"}/>}
+                <div className={"select"}>
+                    <select  defaultValue={""}>
+                        <option hidden value="">{category?.p ? category?.p : "Kategroiy tanlang"}</option>
+                        {categoryData.map((el, i) =>
+                            <option key={i} value={i}>{el.p}</option>
+                        )}
+                    </select>
+                </div>
             </div>
         </div>
     )

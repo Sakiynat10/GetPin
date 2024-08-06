@@ -26,17 +26,7 @@ const Header = () => {
     };
   }, []);
 
-  // const router = useRouter();
-  // const { query } = router;
 
-  // useEffect(() => {
-  //   if (query?.myParam) {
-  //     console.log('Query param:', query.myParam);
-  //   }
-  // }, [query]);
-  // console.log(router);
-  // console.log(useParams);
-  // console.log("Asilbek");
   return (
     <header>
       <nav className="container">

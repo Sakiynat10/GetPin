@@ -1,4 +1,4 @@
-.category-content{
+.subcategory-content{
   margin-left: 387px;
   padding-bottom: 90px;
   height: 100vh;
@@ -32,7 +32,7 @@
       font-weight: 500;
     }
 
-    .add-category{
+    .add-subcategory{
       position: fixed;
       right:0;
       width:80px;
@@ -59,29 +59,51 @@
       cursor: pointer;
     }
   }
-  .add-category-input{
+  .add-subcategory-input{
     height: 100vh;
     padding-top: 100px;
     width: 100%;
-    input{
+    position: relative;
+    input, select{
       display: inline-block;
       padding: 14px 20px;
       border-radius: 7px;
       border: 1px solid #E3E4E8;
       outline: none;
       width: 100%;
-      color: #A6A5AD;
       text-overflow: ellipsis;
       font-size: 22px;
       font-weight: 400;
-      overflow: hidden;
-      color: #000;
-      text-overflow: ellipsis;
-      font-size: 22px;
-      font-weight: 400;
+
       &::placeholder{
         color: #A6A5AD;
       }
     }
+    input{
+      color: #000;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom: none;
+    }
+    select{
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      cursor: pointer;
+      appearance: none;
+      position: relative;
+      background: transparent;
+    }
+    .select{
+      position: relative;
+      &::before{
+        content: url("/down-arrow.svg");
+        position: absolute;
+        top: 30%;
+        right: 20px;
+      }
+    }
+    //select.opacity{
+    //  color: #A6A5AD;
+    //}
   }
 }

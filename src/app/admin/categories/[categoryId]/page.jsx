@@ -12,9 +12,6 @@ const AddingCategory = ({value}) => {
     const handleBackClick = () => {
         router.back()
     }
-    console.log(categoryData.filter((el) => el.id === +categoryId).map((el) => el.p))
-    console.log(value)
-    console.log(categoryId);
     return(
         <div className='category-content'>
             <div className="top-content">
@@ -25,7 +22,7 @@ const AddingCategory = ({value}) => {
                 <button>сохранить</button>
             </div>
             <div className={"add-category-input"}>
-                <input defaultValue={categoryData.filter((el) => el.id === +categoryId).map((el) => el.p)} className={"category-input"} type="text" placeholder={"Kategoriya"} />
+                <input defaultValue={categoryData.filter((el) => +el.id === +categoryId).map((el) => el.p)} className={"category-input"} type="text" placeholder={"Kategoriya"} />
             </div>
         </div>
     )

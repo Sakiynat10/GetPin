@@ -1,8 +1,11 @@
-import React from 'react'
+"use client"
+import React, {useState} from 'react'
 import "./style.scss"
 import NavLink from '../navlink';
+import {ReadonlyURLSearchParams, useParams, usePathname, useRouter, useSearchParams} from "next/navigation";
 
 const AdminAside = () => {
+
   return (
     <>
       <div className="admin-aside">
@@ -11,22 +14,22 @@ const AdminAside = () => {
         </a>
         <ul>
             <li>
-                <NavLink href="advertisement">Все обявлении</NavLink>
+                <NavLink href="/admin/advertisement">Все обявлении</NavLink>
             </li>
             <li>
-                <NavLink href="moderation">Модерация</NavLink>
+                <NavLink  href="/admin/moderation">Модерация</NavLink>
             </li>
             <li>
-                <NavLink href="transactions">Транзакции</NavLink>
+                <NavLink href="/admin/transactions">Транзакции</NavLink>
             </li>
             <li>
-                <NavLink href="development">Саморазвития</NavLink>
+                <NavLink  href="/admin/development">Саморазвития</NavLink>
             </li>
             <li>
-                <NavLink href="categories">Категории</NavLink>
+                <NavLink href="/admin/categories">Категории</NavLink>
             </li>
             <li>
-                <NavLink href="sub-categories">Сабкатегории</NavLink>
+                <NavLink  href="/admin/sub-categories">Сабкатегории</NavLink>
             </li>
         </ul>
       </div>

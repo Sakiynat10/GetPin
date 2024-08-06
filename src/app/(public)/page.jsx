@@ -1,4 +1,3 @@
-"use client"
 
 import "./style.scss";
 
@@ -70,9 +69,6 @@ export const categoryInfos = [
 ];
 
 export default function Home() {
-  const onChange = (date, dateString) => {
-    console.log(date, dateString);
-  };
   return (
     <Fragment>
       <section id="hero">

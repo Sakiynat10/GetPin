@@ -12,10 +12,9 @@ const NavLink = ({
 }) => {
   const pathname = usePathname();
   const pathnameActive = pathname.split("/")
-  console.log(pathnameActive[pathnameActive - 1])
   return (
     <Link
-    className={pathnameActive[pathnameActive.length - 1] === href ? `active ${className}` :  className} href={href} {...props}>
+    className={pathname === href ? `active ${className}` :  className} href={href} {...props}>
       {children}
     </Link>
   );
