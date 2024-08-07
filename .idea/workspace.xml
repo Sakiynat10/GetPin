@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/adding/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/adding/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/advertisement/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/upload-videos/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/upload-videos/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +88,7 @@
       <workItem from="1722843281076" duration="12534000" />
       <workItem from="1722919501184" duration="11047000" />
       <workItem from="1722938965091" duration="12988000" />
+      <workItem from="1723006629454" duration="1726000" />
     </task>
     <servers />
   </component>
@@ -124,13 +121,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/admin-aside/index.jsx</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/admin/advertisement/[adding]/page.jsx</url>
-          <line>105</line>
-          <properties lambdaOrdinal="-1" />
+          <line>93</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

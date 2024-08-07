@@ -8,7 +8,7 @@ const TrainCategory = () => {
   const [categoryId , setCategoryId] = useState(1);
   const [activeCategory, setActiveCategory] = useState("Мастер класс");
 
-  const res = ((categoryData.filter((el) => +el.id === categoryId)).map((el) => el.subCategoryData))
+  const res = ((categoryData.filter((el) => +el.id === +categoryId)).map((el) => el.subCategoryData))
 
     const handleId = (id , category) => {
       setCategoryId(id)
@@ -23,11 +23,14 @@ const TrainCategory = () => {
       }
     };
 
+      console.log(res[0]?.map((el) => el))
+      console.log(categoryId)
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [categoryId]);
   return (
     <>
       <ul
