@@ -30,7 +30,7 @@ const MediaUpload = () => {
     setFiles(files.map(el=>{
       if(el.id===_id){
         el.data = e.target.files[0];
-      };
+      }
       return el;
     }
   ))

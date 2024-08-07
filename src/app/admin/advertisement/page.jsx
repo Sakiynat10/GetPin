@@ -1,14 +1,22 @@
+"use client"
+
 import React from "react";
 import "./style.scss";
 import { advInfos } from '@/data';
+import {useRouter} from "next/navigation";
 
 const Advertisement = () => {
+  const router = useRouter();
+
+  const handleAdd = (id) => {
+    router.push(`/admin/advertisement/${id}`)
+  }
   return (
     <>
       <div className="admin-adv-top"></div>
       <div className="admin-adv">
         <div className="admin-table">
-          <a href="/admin/adding" className="plus">
+          <a href="/admin/advertisement/adding" className="plus">
             <img src="/plus.svg" alt="plus" />
           </a>
           {advInfos.map((el, i) => (
@@ -31,7 +39,7 @@ const Advertisement = () => {
               {el.claim  ? <li className="crud">
                 <button><img src="/check.svg" alt="like" /></button>
                 <button><img src="/delete.svg" alt="like" /></button>
-                <button><img src="/edit.svg" alt="like" /></button>
+                <button onClick={() => handleAdd(el.id)}><img src="/edit.svg" alt="like" /></button>
               </li>  : ""}
             </ul>
           ))}

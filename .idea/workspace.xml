@@ -6,20 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/adding/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/adding/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/categories/[categoryId]/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/categories/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/categories/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/categories/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/categories/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/[subcategoryId]/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/sub-categories/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/sub-categories/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/sub-categories/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin-aside/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/admin-aside/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navlink/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navlink/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/adding/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/adding/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/advertisement/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/upload-videos/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/upload-videos/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +61,7 @@
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\advertisement" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\categories" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
@@ -100,7 +91,7 @@
       <workItem from="1722833404949" duration="4934000" />
       <workItem from="1722843281076" duration="12534000" />
       <workItem from="1722919501184" duration="11047000" />
-      <workItem from="1722938965091" duration="5541000" />
+      <workItem from="1722938965091" duration="12988000" />
     </task>
     <servers />
   </component>
@@ -135,6 +126,12 @@
           <line>1</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/admin/advertisement/[adding]/page.jsx</url>
+          <line>105</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

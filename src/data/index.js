@@ -354,124 +354,124 @@ const categoryData = [
   ];
 
   const advInfos = [
-    {
+    { id:1,
       site:"Thyromart.com",
       nameCompany:"Getter",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:2,
       site:"Crm.thyrocare.com",
       nameCompany:"Bochum",
       likes:"274",
       viewers:"994"
     },
-    {
+    { id:3,
       site:"Thyrocare.com",
       nameCompany:"Hampton (VA)",
       likes:"429",
       viewers:"357",
       claim:true,
     },
-    {
+    { id:4,
       site:"Blog.thyrocare.com",
       nameCompany:"Aurora (IL)",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:5,
       site:"Cliso.thyrocare.Cloud.com",
       nameCompany:"San Juan",
       likes:"429",
       viewers:"357",
       claim:true,
     },
-    {
+    { id:6,
       site:"Thyromart.com",
       nameCompany:"Getter",
       likes:"429",
       viewers:"357",
       claim:true,
     },
-    {
+    { id:7,
       site:"Crm.thyrocare.com",
       nameCompany:"Bochum",
       likes:"274",
       viewers:"994"
     },
-    {
+    { id:8,
       site:"Thyrocare.com",
       nameCompany:"Hampton (VA)",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:9,
       site:"Blog.thyrocare.com",
       nameCompany:"Aurora (IL)",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:10,
       site:"Cliso.thyrocare.Cloud.com",
       nameCompany:"San Juan",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:11,
       site:"Thyromart.com",
       nameCompany:"Getter",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:12,
       site:"Crm.thyrocare.com",
       nameCompany:"Bochum",
       likes:"274",
       viewers:"994"
     },
-    {
+    { id:13,
       site:"Thyrocare.com",
       nameCompany:"Hampton (VA)",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:14,
       site:"Blog.thyrocare.com",
       nameCompany:"Aurora (IL)",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:15,
       site:"Cliso.thyrocare.Cloud.com",
       nameCompany:"San Juan",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:16,
       site:"Thyromart.com",
       nameCompany:"Getter",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:17,
       site:"Crm.thyrocare.com",
       nameCompany:"Bochum",
       likes:"274",
       viewers:"994"
     },
-    {
+    { id:18,
       site:"Thyrocare.com",
       nameCompany:"Hampton (VA)",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:19,
       site:"Blog.thyrocare.com",
       nameCompany:"Aurora (IL)",
       likes:"429",
       viewers:"357"
     },
-    {
+    { id:20,
       site:"Cliso.thyrocare.Cloud.com",
       nameCompany:"San Juan",
       likes:"429",
