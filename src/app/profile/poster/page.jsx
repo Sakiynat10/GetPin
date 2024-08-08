@@ -1,3 +1,5 @@
+"use client"
+
 import "./style.scss"
 import TrainCard from "@/components/train-card";
 
