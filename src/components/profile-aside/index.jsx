@@ -10,7 +10,7 @@ const AdminAside = () => {
     return (
         <aside>
             <div className="admin-aside">
-                <BreadCrumbs path1={"Главная"} path2={"Мой профиль"}/>
+                <BreadCrumbs />
                 <div className={"profile-speaker-infos"}>
                     <img className={"speaker-img"} src="/profile-speaker.png" alt="profile-speaker"/>
                     <div className={"speaker-title"}>Abbos Janizakov</div>

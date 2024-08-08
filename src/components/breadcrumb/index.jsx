@@ -3,10 +3,10 @@ const BreadCrumbs = (...path) => {
     return(
         <ul className={"bread-crumb"}>
             <li>
-                <a href={path[0].path1}>{path[0].path1}</a>
+                <a href="/">Главная</a>
             </li>
             <li>
-                <a href="">{path[0].path2}</a>
+                <a href="/">Мой профиль</a>
             </li>
         </ul>
     )

@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/chevron-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profile-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profile-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profile-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profile-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profile-background-line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profile-speaker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/poster/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/poster/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/records/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/settings/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/breadcrumb/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile-aside/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile-aside/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile-header/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile-header/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login-form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login-form/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/register-form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/register-form/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/index.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +90,7 @@
       <workItem from="1723015493682" duration="1322000" />
       <workItem from="1723024240928" duration="6836000" />
       <workItem from="1723034562292" duration="433000" />
-      <workItem from="1723092759640" duration="7846000" />
+      <workItem from="1723092759640" duration="8304000" />
     </task>
     <servers />
   </component>
