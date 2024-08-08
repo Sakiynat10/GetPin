@@ -1,5 +1,4 @@
-const BreadCrumbs = (...path) => {
-    console.log(path[0].path1)
+const BreadCrumbs = () => {
     return(
         <ul className={"bread-crumb"}>
             <li>
