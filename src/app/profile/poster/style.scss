@@ -1,0 +1,205 @@
+main{
+  padding-top: 78px;
+  .poster{
+    display: flex;
+    .poster-content{
+      .statistic-content{
+        margin-left: 266px;
+        width: 510px;
+        height: 110px;
+        padding-top: 21px;
+        padding-left: 28px;
+        border-radius: 12px;
+        margin-top: 45px;
+        overflow: hidden;
+        background-image: url("/profile-background-line.png");
+        background-color: #fff;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        display: flex;
+        gap: 20px;
+        h1{
+          color: #000;
+          font-size: 18px;
+          font-weight: 400;
+        }
+        p{
+          color: #000;
+          font-size: 11px;
+          font-weight: 400;
+        }
+      }
+      .main-content{
+        margin-top: 12px;
+        margin-left: 266px;
+        width: 510px;
+        .card-outline{
+          border-radius: 12px;
+        }
+        .main-content-tab{
+          display: flex;
+          gap: 3px;
+          width: 510px;
+          height: 48px;
+          padding: 3px;
+          border-radius: 12px;
+          background: #FFF;
+          margin-bottom: 8px;
+          li{
+            padding: 13px 21px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: 0.5s;
+            color: #282828;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 16px; /* 106.667% */
+            &:hover{
+              background: #A9FFE0;
+            }
+          }
+        }
+        .main-content-context{
+
+          .card-st{
+            h1{
+              color: #131313;
+              position: relative;
+              font-size: 15px;
+              font-weight: 400;
+              letter-spacing: -0.3px;
+              margin-top:-42px;
+              padding-left: 40px;
+            }
+            .train-card-statistics{
+              display: flex;
+              position: relative;
+              margin-top: 9px;
+              z-index: 20;
+              gap: 10px;
+              background: rgba(255, 236, 65, 0.2);
+              width: 504px;
+              height: 54px;
+              margin-left: auto;
+              margin-right: auto;
+              padding: 10px 37px;
+              li{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 2px;
+                width: 90px;
+                span{
+                  color: #131313;
+                  font-size: 11px;
+                  font-weight: 400;
+                }
+                h3{
+                  color: #131313;
+                  font-size: 15px;
+                  font-weight: 400;
+                }
+              }
+            }
+
+          }
+          .train-card-records{
+            margin-bottom: 3px;
+            border-radius: 0 0 10px 10px;
+            background: #A9FFE0;
+            width: 504px;
+            height: 54px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 11px 19px 11px 37px;
+            margin-left: auto;
+            margin-right: auto;
+            button{
+              background: transparent;
+              border: none;
+              cursor: pointer;
+              color: #131313;
+              font-size: 12px;
+              font-weight: 400;
+              letter-spacing: -0.24px;
+            }
+            .train-recorders{
+              display: flex;
+              align-items: center;
+              gap: 14px;
+              p{
+                color: #131313;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: -0.3px;
+              }
+              .recorders-img{
+                img{
+                  width: 30px;
+                  height: 30px;
+                  margin-right: -8px;
+                  border: 1px solid #fff;
+                  border-radius: 50px;
+                  &:last-child{
+                    margin-right: 0;
+                  }
+                }
+              }
+            }
+            .all-recorders{
+              display: flex;
+              align-items: center;
+              gap: 14px;
+              img{
+                width: 14px;
+                height: 14px;
+                margin-top: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .poster-recommendation{
+      width: 224px;
+      margin-left: 36px;
+      margin-top: 55px;
+      h1{
+        color: #282828;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 16px; /* 106.667% */
+        margin-bottom: 12px;
+      }
+      p{
+        color: #282828;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px; /* 133.333% */
+      }
+      .rec-desc-2{
+        margin-top: 14px;
+        margin-bottom: 26px;
+      }
+      a{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px; /* 145.455% */
+      }
+    }
+  }
+}
+
+
+
+footer{
+  z-index: 25;
+  background: #F6F6F6;
+  position: relative;
+}

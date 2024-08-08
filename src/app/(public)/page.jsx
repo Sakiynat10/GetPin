@@ -13,60 +13,6 @@ import { DatePicker, TimePicker } from "antd";
 
 
 
-export const categoryInfos = [
-  {
-    img: "/location.svg",
-    countries:[
-      {
-        count0:"Регион"
-      },
-      {
-        count1:"Tashkent"
-      },
-      {
-        count1:"Namangan"
-      },
-      {
-        count1:"Andijon"
-      },
-      {
-        count1:"Fargona"
-      },
-      {
-        count1:"Sirdaryo"
-      },
-      {
-        count1:"Jizzax"
-      },
-      {
-        count1:"Samarqand"
-      },
-      {
-        count1:"Qashqadaryo"
-      },
-      {
-        count1:"Surxondaryo"
-      },
-      {
-        count1:"Buxoro"
-      },
-      {
-        count1:"Navoiy"
-      },
-      {
-        count1:"Qoraqalpagiston"
-      }
-    ]
-  },
-  {
-    img: "/data.svg",
-    title: "Дата",
-  },
-  {
-    img: "/clock.svg",
-    title: "Время",
-  },
-];
 
 export default function Home() {
   return (
@@ -76,40 +22,41 @@ export default function Home() {
         <div className="container-1040">
           <TrainCategory/>
           <div className="adv-content">
-            <Image fill src={"/advertisment.png"} alt="adv" />
+            <Image fill src={"/advertisment.png"} alt="adv"/>
           </div>
         </div>
       </section>
       <section id="category">
         <div className="container-1040">
           <ul className="category-infos">
-              <li>
-                <label for="language" >
-                  <img src={"/location.svg"} alt="location" />
-                  <select className="select" name="language" id="language">
-                    <option value="javascript">Tashkent</option>
-                    <option value="python">Fargona</option>
-                    <option value="c++">Andijon</option>
-                    <option value="java">Sirdaryo</option>
-                    <option value="javascript">Jizzax</option>
-                    <option value="python">Samarqand</option>
-                    <option value="c++">Qashqadaryo</option>
-                    <option value="java">Surxandaryo</option>
-                    <option value="javascript">Buxoro</option>
-                    <option value="python">Navoiy</option>
-                    <option value="c++">Qoraqalpogiston</option>
-                  </select>
-                </label>
-              </li>
-              <li>
-              <DatePicker placeholder="Дата" />
-              </li>
-              <li className="time-picker">
-              <TimePicker placeholder="Время" />
-              </li>
-            <CheckBox />
+            <li>
+              <label for="language">
+                <img src={"/location.svg"} alt="location"/>
+                <select className="select" name="language" id="language">
+                  <option value="javascript">Tashkent</option>
+                  <option value="python">Fargona</option>
+                  <option value="c++">Andijon</option>
+                  <option value="java">Sirdaryo</option>
+                  <option value="javascript">Jizzax</option>
+                  <option value="python">Samarqand</option>
+                  <option value="c++">Qashqadaryo</option>
+                  <option value="java">Surxandaryo</option>
+                  <option value="javascript">Buxoro</option>
+                  <option value="python">Navoiy</option>
+                  <option value="c++">Qoraqalpogiston</option>
+                </select>
+              </label>
+            </li>
+            <li>
+              <DatePicker placeholder="Дата"/>
+            </li>
+            <li className="time-picker">
+              <TimePicker placeholder="Время"/>
+            </li>
+            <CheckBox/>
           </ul>
-          <TrainCard />
+          <TrainCard/>
+          <button className="add-train-btn container-1040">Загрузить еще</button>
         </div>
       </section>
       <Articles/>

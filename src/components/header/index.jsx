@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 
 const Header = () => {
   const [isShrunk, setIsShrunk] = useState(false);
-  const [users, setUsers] = useState("admin");
+  const [users, setUsers] = useState("user");
 
   useEffect(() => {
     const handleScroll = () => {
