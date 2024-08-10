@@ -7,10 +7,10 @@ export default function RootLayout({ children }) {
     return (
         <Fragment>
             <ProfileHeader/>
-            <main style={{ height:"100%" , maxWidth:"1040px" , width:"100%", marginLeft:"auto" , marginRight:"auto"}}>
+            <main style={{ height:"100%" , maxWidth:"1040px" , width:"100%", marginLeft:"auto" , marginRight:"auto",paddingTop:"78px"}}>
                 <ProfileAside/>
                 {children}
-                <Footer/>
+                <Footer />
             </main>
         </Fragment>
     );

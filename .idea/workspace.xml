@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="" />
+    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/left-archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/profile/archive/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/recommendation/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/recommendation/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/statistic-content/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/statistic-content/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/poster/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/poster/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/poster/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/poster/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/records/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/records/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +40,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Get-Pin/get-pin/src/components/profile-header&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Get-Pin/get-pin/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -48,8 +62,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\profile-header" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\public" />
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\profile-header" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\register-form" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
@@ -91,6 +105,9 @@
       <workItem from="1723024240928" duration="6836000" />
       <workItem from="1723034562292" duration="433000" />
       <workItem from="1723092759640" duration="8678000" />
+      <workItem from="1723110028611" duration="10175000" />
+      <workItem from="1723179304002" duration="3499000" />
+      <workItem from="1723266149833" duration="2888000" />
     </task>
     <servers />
   </component>
@@ -143,6 +160,12 @@
           <url>file://$PROJECT_DIR$/src/data/index.js</url>
           <line>193</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/profile/archive/page.jsx</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

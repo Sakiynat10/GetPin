@@ -1,0 +1,32 @@
+.recommendation{
+  width: 224px;
+  margin-left: 817px;
+  position: fixed;
+  margin-top: 55px;
+  h1{
+    color: #282828;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px; /* 106.667% */
+    margin-bottom: 12px;
+  }
+  p{
+    color: #282828;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+  }
+  .desc-2{
+    margin-top: 14px;
+    margin-bottom: 26px;
+  }
+  a{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px; /* 145.455% */
+  }
+}

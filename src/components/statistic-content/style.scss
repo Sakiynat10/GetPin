@@ -1,0 +1,27 @@
+.statistic-content{
+  margin-left: 266px;
+  width: 510px;
+  height: 110px;
+  padding-top: 21px;
+  padding-left: 28px;
+  border-radius: 12px;
+  margin-top: 48px;
+  overflow: hidden;
+  background-image: url("/profile-background-line.png");
+  background-color: #fff;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-bottom: 14px;
+  gap: 20px;
+  h1{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  p{
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+  }
+}

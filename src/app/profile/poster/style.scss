@@ -1,38 +1,11 @@
 main{
-  padding-top: 78px;
   .poster{
     display: flex;
     .poster-content{
-      .statistic-content{
-        margin-left: 266px;
-        width: 510px;
-        height: 110px;
-        padding-top: 21px;
-        padding-left: 28px;
-        border-radius: 12px;
-        margin-top: 45px;
-        overflow: hidden;
-        background-image: url("/profile-background-line.png");
-        background-color: #fff;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        display: flex;
-        gap: 20px;
-        h1{
-          color: #000;
-          font-size: 18px;
-          font-weight: 400;
-        }
-        p{
-          color: #000;
-          font-size: 11px;
-          font-weight: 400;
-        }
-      }
       .main-content{
-        margin-top: 12px;
         margin-left: 266px;
         width: 510px;
+        margin-top: 9px;
         .card-outline{
           border-radius: 12px;
         }
@@ -159,38 +132,6 @@ main{
             }
           }
         }
-      }
-    }
-
-    .poster-recommendation{
-      width: 224px;
-      margin-left: 36px;
-      margin-top: 55px;
-      h1{
-        color: #282828;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 16px; /* 106.667% */
-        margin-bottom: 12px;
-      }
-      p{
-        color: #282828;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px; /* 133.333% */
-      }
-      .rec-desc-2{
-        margin-top: 14px;
-        margin-bottom: 26px;
-      }
-      a{
-        display: flex;
-        align-items: center;
-        gap: 2px;
-        color: #000;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px; /* 145.455% */
       }
     }
   }

@@ -1,5 +1,8 @@
 footer{
     padding-top: 70px;
+    background: #f6f6f6;
+    z-index: 25;
+    position: relative;
     .footer-logo{
         display: flex;
         flex-direction: column;
