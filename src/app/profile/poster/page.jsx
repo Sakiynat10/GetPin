@@ -26,7 +26,7 @@ const PosterPage = () => {
                         </li>
                     </ul>
                     <div className={"main-content-context"}>
-                        <TrainCard/>
+                        <TrainCard statistic="statistic" />
                     </div>
                 </div>
             </div>

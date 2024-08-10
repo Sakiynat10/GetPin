@@ -7,9 +7,10 @@ import { trainCard } from "@/data";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const TrainCard = () => {
+const TrainCard = ({statistic}) => {
     const [autoPlay , setAutoPlay] = useState(false);
     const router = useRouter();
+    console.log(statistic)
   return (
     <>
       <div
@@ -67,29 +68,31 @@ const TrainCard = () => {
                               {/* <VideoPlayer  src={el.video} autoPlay={autoPlay} className="video-player" /> */}
                           </div>
                       </button>
-                      <div className={"card-st"}>
-                          <h1>Статистика</h1>
-                          <ul className={"train-card-statistics"}>
-                              <li>
-                                  <span>Прямые записи:</span>
-                                  <h3>34</h3>
-                              </li>
-                              <li>
-                                  <span>Клики:</span>
-                                  <h3>283</h3>
-                              </li>
-                              <li>
-                                  <span>Просмотры</span>
-                                  <h3>823</h3>
-                              </li>
-                              <li>
-                                  <span>Поделились:</span>
-                                  <h3>230</h3>
-                              </li>
-                          </ul>
+                      {statistic ?
+                          <div className={"card-st"}>
+                              <h1>Статистика</h1>
+                              <ul className={"train-card-statistics"}>
+                                  <li>
+                                      <span>Прямые записи:</span>
+                                      <h3>34</h3>
+                                  </li>
+                                  <li>
+                                      <span>Клики:</span>
+                                      <h3>283</h3>
+                                  </li>
+                                  <li>
+                                      <span>Просмотры</span>
+                                      <h3>823</h3>
+                                  </li>
+                                  <li>
+                                      <span>Поделились:</span>
+                                      <h3>230</h3>
+                                  </li>
+                              </ul>
 
-                      </div>
-                      <div className={"train-card-records"}>
+                          </div> : ""
+                      }
+                      {statistic ? <div className={"train-card-records"}>
                           <div className={"train-recorders"}>
                               <p>Записи:</p>
                               <div className={"recorders-img"}>
@@ -104,7 +107,7 @@ const TrainCard = () => {
                               Посмотреть все записи
                               <img src="/chevron-right.svg" alt="right"/>
                           </button>
-                      </div>
+                      </div> : ""}
                   </div>
               ))}
       </div>

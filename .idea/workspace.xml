@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/left-archive.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/archive/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommendation/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommendation/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/statistic-content/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/statistic-content/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/layout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/profile/poster/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/poster/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/poster/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/poster/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/records/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/records/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +97,7 @@
       <workItem from="1723092759640" duration="8678000" />
       <workItem from="1723110028611" duration="10175000" />
       <workItem from="1723179304002" duration="3499000" />
-      <workItem from="1723266149833" duration="2888000" />
+      <workItem from="1723266149833" duration="3940000" />
     </task>
     <servers />
   </component>
@@ -124,7 +114,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/train-card/index.jsx</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -166,6 +156,12 @@
           <line>21</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/profile/archive/page.jsx</url>
+          <line>142</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
