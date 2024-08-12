@@ -45,6 +45,7 @@ aside{
   display: flex;
   flex-direction: column;
   padding: 5px;
+  gap: 1px;
   width: 246px;
   background: #fff;
   border-radius: 15px;
@@ -66,6 +67,19 @@ aside{
         background: #A9FFE0;
         transition: 0.5s;
       }
+    }
+    .active{
+      display: flex;
+      align-items: center;
+      border-radius: 11px;
+      background: #A9FFE0;
+      gap: 12px;
+      color: #282828;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 16px; /* 106.667% */
+      padding: 18px;
+      transition: 0.5s;
     }
   }
   .profile-record{
@@ -101,9 +115,100 @@ aside{
   font-weight: 500;
   line-height: 16px; /* 106.667% */
   border-radius: 12px;
+  border: none;
   transition: 0.5s;
+  cursor: pointer;
   &:hover{
     background: #A9FFE0;
     transition: 0.5s;
   }
 }
+
+.active{
+  display: flex;
+  align-items: center;
+  border-radius: 11px;
+  background: #A9FFE0;
+  gap: 12px;
+  color: #282828 !important;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px; /* 106.667% */
+  padding: 18px;
+  transition: 0.5s;
+}
+
+.admin-aside{
+  position: relative;
+}
+
+.hide-warn{
+  position: fixed;
+  overflow: hidden;
+  top: 370px;
+  width: 298px;
+  margin-left: -230px;
+  height: 230px;
+  padding: 32px;
+  z-index:-10;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #E3E4E8;
+  box-shadow: 10px 24px 24px 0 rgba(59, 64, 70, 0.07);
+  transition: 0.5s;
+  opacity: 0;
+  .overlay-warn{
+    background: #fff;
+    position: absolute;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    transition: 1s;
+  }
+  &:hover{
+    .overlay-warn{
+      top: 0;
+      transition: 1s;
+    }
+  }
+  p{
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  button{
+    padding: 13px 44px;
+    border-radius: 50px;
+    border: 1px solid #A9FFE0;
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    background: #A9FFE0;
+    width: 114px;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover{
+      background: rgba(169, 255, 224, 0.5);
+    }
+  }
+}
+
+.warning{
+  z-index: 20;
+  transition: 1s;
+  opacity: 1;
+  .overlay-warn{
+    top: -100% !important;
+  }
+}
+
+

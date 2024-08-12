@@ -1,6 +1,7 @@
 .archive{
   display: flex;
   .archive-main{
+    padding-bottom: 90px;
     .archive-tabs{
       display: flex;
       align-items: center;
@@ -54,6 +55,7 @@
       flex-direction: column;
       gap: 5px;
       .archive-card{
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -115,6 +117,54 @@
             cursor: pointer;
             &:hover{
               background: #E4E4E4;
+              transition: 0.5s;
+            }
+          }
+          .dots{
+            width: 16px;
+            height: 16px;
+            background: transparent;
+            border: none;
+            outline: none;
+            &:hover{
+              background: #fff !important;
+            }
+          }
+        }
+        .hide-mode{
+          display: none;
+        }
+        .active-mode{
+          padding: 2px;
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          right: -115px;
+          top: 23px;
+          width: 120px;
+          height: 89px;
+          z-index: 21;
+          background: #fff;
+          align-items: start;
+          border-radius: 12px;
+          box-shadow: -10px 14px 34px 0px rgba(0, 0, 0, 0.12);
+          button{
+            padding: 14px 18px;
+            width: 100%;
+            text-align: left;
+            color: #131313;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: -0.24px;
+            transition: 0.5s;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background: transparent;
+            &:hover{
+              background: #A9FFE0;
               transition: 0.5s;
             }
           }

@@ -1,11 +1,36 @@
 "use client"
-import React, {useState} from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 import "./style.scss"
 import NavLink from '../navlink';
 import {ReadonlyURLSearchParams, useParams, usePathname, useRouter, useSearchParams} from "next/navigation";
 import BreadCrumbs from "@/components/breadcrumb";
 
 const AdminAside = () => {
+    const router = useRouter();
+    const [warn , setWarn] = useState(false);
+    const handleWarning = () => {
+        setWarn(true)
+    }
+
+    const buttonRefs = useRef([]);
+
+    const handleClickOutside = (event) => {
+        if (!buttonRefs.current.some(ref => ref && ref.contains(event.target))) {
+            setWarn(false); // Deactivate all buttons
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
+    const logout = () => {
+        router.push("/")
+    }
 
     return (
         <aside>
@@ -41,10 +66,16 @@ const AdminAside = () => {
                             Настройки</NavLink>
                     </li>
                 </ul>
-                <a className={"profile-logout"} href="/">
+                <button onClick={handleWarning} className={warn ? "profile-logout active":"profile-logout"}>
                     <img src="/logout.svg" alt="profile-img"/>
-                    Категории
-                </a>
+                    Выход
+                </button>
+                <div  className={warn  ? "hide-warn warning"  : "hide-warn"}>
+                    <div className={"overlay-warn"}></div>
+                   <p>Вы уверены
+                       что хотите выйти из аккаунта</p>
+                    <button onClick={logout}>да</button>
+                </div>
             </div>
         </aside>
     )

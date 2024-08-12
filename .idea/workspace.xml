@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/edit-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/profile/settings/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/poster/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/poster/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/archive/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/archive/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/settings/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/settings/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile-aside/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-aside/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile-aside/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-aside/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +104,10 @@
       <workItem from="1723092759640" duration="8678000" />
       <workItem from="1723110028611" duration="10175000" />
       <workItem from="1723179304002" duration="3499000" />
-      <workItem from="1723266149833" duration="3940000" />
+      <workItem from="1723266149833" duration="9749000" />
+      <workItem from="1723281035895" duration="10498000" />
+      <workItem from="1723437772310" duration="6877000" />
+      <workItem from="1723446410015" duration="332000" />
     </task>
     <servers />
   </component>
@@ -153,15 +163,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/profile/archive/page.jsx</url>
-          <line>21</line>
-          <properties lambdaOrdinal="-1" />
+          <line>51</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/profile/archive/page.jsx</url>
-          <line>142</line>
-          <properties lambdaOrdinal="-1" />
+          <line>81</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/(public)/page.jsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
