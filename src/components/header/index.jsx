@@ -35,7 +35,7 @@ const Header = () => {
             Getpin 
           </a>
           <span className="account" >
-            <a href={"/account"} className="account-title">
+            <a href={"/profile/addprofile"} className="account-title">
               <img src="/plus-header.svg" alt="plus-header"/>
               Добавить объявления
             </a>

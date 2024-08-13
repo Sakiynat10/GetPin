@@ -4,12 +4,15 @@ import SearchInput from "../search-input";
 
 import { useEffect, useState } from "react";
 import "./style.scss";
-import { URLSearchParams, useParams } from "next/navigation";
+import {URLSearchParams, useParams, usePathname} from "next/navigation";
 import { useRouter } from "next/navigation";
 
 const ProfileHeader = () => {
     const [isShrunk, setIsShrunk] = useState(false);
     const [users, setUsers] = useState("admin");
+
+    const params = usePathname()
+    const pathname = params.split("/")[2]
 
     useEffect(() => {
         const handleScroll = () => {
@@ -35,7 +38,7 @@ const ProfileHeader = () => {
                         Getpin
                     </a>
                     <div  className={"nav-title container-1040"}>
-                        <h1>Профиль</h1>
+                        <h1>{pathname === "addprofile" ? "Добавить объявления":"Профиль"}</h1>
                     </div>
                     <span className="account" >
                     <a href={"/account"} className="account-title">

@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/edit-photo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/settings/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/edit-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/profile/addprofile/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/profile/addprofile/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/archive/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/archive/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/archive/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/profile/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/settings/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/settings/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile-aside/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-aside/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile-aside/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-aside/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile-header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-header/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,11 @@
       <workItem from="1723266149833" duration="9749000" />
       <workItem from="1723281035895" duration="10498000" />
       <workItem from="1723437772310" duration="6877000" />
-      <workItem from="1723446410015" duration="332000" />
+      <workItem from="1723446410015" duration="1035000" />
+      <workItem from="1723449416675" duration="13791000" />
+      <workItem from="1723524256387" duration="1327000" />
+      <workItem from="1723529997229" duration="5917000" />
+      <workItem from="1723540972887" duration="599000" />
     </task>
     <servers />
   </component>
@@ -175,6 +177,26 @@
           <url>file://$PROJECT_DIR$/src/app/(public)/page.jsx</url>
           <line>1</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/profile/addprofile/page.jsx</url>
+          <line>103</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/profile/addprofile/page.jsx</url>
+          <line>55</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/profile/addprofile/page.jsx</url>
+          <line>57</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/upload-videos/index.jsx</url>
+          <line>58</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
