@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/edit-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/addprofile/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/addprofile/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/check-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/check-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/confirmation/confirmation-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/confirmation/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loginpage/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loginpage/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/registerpage/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/registerpage/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/advertisement/[adding]/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/register/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile-header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-input/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Get-Pin/get-pin/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/user/Desktop/Get-Pin/get-pin/src/components/loginpage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -57,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\loginpage" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\public" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\profile-header" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\register-form" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\advertisement" />
@@ -109,7 +115,9 @@
       <workItem from="1723449416675" duration="13791000" />
       <workItem from="1723524256387" duration="1327000" />
       <workItem from="1723529997229" duration="5917000" />
-      <workItem from="1723540972887" duration="599000" />
+      <workItem from="1723540972887" duration="9037000" />
+      <workItem from="1723552417917" duration="993000" />
+      <workItem from="1723611881351" duration="7557000" />
     </task>
     <servers />
   </component>
@@ -197,6 +205,24 @@
           <url>file://$PROJECT_DIR$/src/components/upload-videos/index.jsx</url>
           <line>58</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/header/index.jsx</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/header/index.jsx</url>
+          <line>47</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/header/index.jsx</url>
+          <line>58</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

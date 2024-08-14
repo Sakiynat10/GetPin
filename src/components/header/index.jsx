@@ -6,10 +6,16 @@ import { useEffect, useState } from "react";
 import "./style.scss";
 import { URLSearchParams, useParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+import RegisterPage from "@/components/registerpage";
+import LoginPage from "@/components/loginpage";
+import ConfirmationPage from "@/components/confirmation/confirmation-page";
 
 const Header = () => {
   const [isShrunk, setIsShrunk] = useState(false);
   const [users, setUsers] = useState("user");
+  const [register , setRegister] = useState(false);
+  const [login , setLogin] = useState(false);
+  const [confirm , setConfirm] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,8 +32,18 @@ const Header = () => {
     };
   }, []);
 
+  /*Register Page*/
+  const handleRegister = () => {
+    setRegister(!register);
+  }
+
+  const handleLogin = () => {
+    setLogin(!login);
+  }
+
 
   return (
+      <>
     <header>
       <nav className="container">
         <div className="nav-top">
@@ -35,26 +51,29 @@ const Header = () => {
             Getpin 
           </a>
           <span className="account" >
-            <a href={"/profile/addprofile"} className="account-title">
+            <button onClick={handleRegister} href={"/profile/addprofile"} className="account-title">
               <img src="/plus-header.svg" alt="plus-header"/>
               Добавить объявления
-            </a>
+            </button>
             {users === "user" ?
-                <a href={"/register"}  className={"account-sign"}>
+                <button onClick={handleLogin}  className={"account-sign"}>
                   Вход
                   <img src="/inter.svg" alt="inter"/>
-                </a> :
-                <a href={"/account"} className="account-img">
+                </button> :
+                <button className="account-img">
                   <img src="/speaker-4.png" alt="speaker"/>
                   <img src="/account-menu.svg" alt="account-menu"/>
-                </a>
+                </button>
             }
-
           </span>
         </div>
         {/* <SearchInput isShrunk={isShrunk} /> */}
       </nav>
     </header>
+        {register  ? <RegisterPage/>  : <></>}
+        {/*{login  ? <LoginPage/>  : <></>}*/}
+        {login  ? <ConfirmationPage/>  : <></>}
+      </>
   );
 };
 

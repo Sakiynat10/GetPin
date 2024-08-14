@@ -22,10 +22,11 @@ header{
             }
         }
         .account{
+            position: relative;
+            z-index: 20000;
             display: flex;
             gap: 5px;
             align-items: center;
-            z-index: 5;
             .account-title{
                 color: #131313;
                 text-align: center;
@@ -40,6 +41,8 @@ header{
                 font-weight: 400;
                 line-height: normal;
                 letter-spacing: -0.64px;
+                border: none;
+                cursor: pointer;
             }
             .account-sign{
                 width: 80px;
@@ -49,6 +52,8 @@ header{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                border: none;
+                cursor: pointer;
                 gap: 4px;
                     color: #121212;
                     text-align: center;
