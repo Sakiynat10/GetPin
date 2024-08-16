@@ -1,0 +1,87 @@
+.select{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.09px;
+  letter-spacing: -0.04em;
+  color: rgba(56, 185, 139, 1);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  gap: 7px;
+  width: 130px;
+  position: relative;
+  &::before{
+    content: url("/location.svg");
+  }
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 250px;
+  width: 200px;
+  height: 336px;
+  border-radius: 7px;
+  background: #fff;
+  padding: 20px 0 20px 5px;
+  z-index: 50;
+  box-shadow: 0 10px 10px 1px rgba(0, 0, 0 , 0.12);
+  .option{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    text-align: left;
+    z-index: 50;
+    padding: 3.5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &::after{
+      content: url("/select-right-light.svg");
+    }
+    .regions{
+      display: none;
+      position: absolute;
+      left: 185px;
+      width: 200px;
+      background: #fff;
+      box-shadow: 0 10px 10px 1px rgba(0, 0, 0 , 0.12);
+      border-radius: 7px;
+      padding: 20px 5px 20px 5px;
+      top: 20px;
+      span{
+        padding: 3.5px 20px;
+        color: #000;
+        border-radius: 3px;
+      }
+      span:hover{
+        background: rgba(56, 185, 139, 0.1);
+        color: rgba(56, 185, 139, 1);
+      }
+      .activeRegion{
+        background: rgba(56, 185, 139, 0.1);
+        color: rgba(56, 185, 139, 1);
+      }
+    }
+    .active-region{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+  .active{
+    background: rgba(56, 185, 139, 0.1);
+    color: rgba(56, 185, 139, 1);
+    &::after{
+      content: url("/select-right-active.svg");
+    }
+  }
+}
+
+.hidden-options{
+  display: none;
+}

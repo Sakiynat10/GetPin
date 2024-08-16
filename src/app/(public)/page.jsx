@@ -1,7 +1,7 @@
 
 import "./style.scss";
 
-import { Fragment } from "react";
+import {Fragment} from "react";
 import Image from "next/image";
 import CheckBox from "@/components/checkbox";
 import TrainCategory from "@/components/train-category";
@@ -9,12 +9,16 @@ import TrainCard from './../../components/train-card/index';
 import SearchInput from "@/components/search-input";
 import Articles from './../../components/article-section/index';
 import { DatePicker, TimePicker } from "antd";
+import {cities} from "@/data";
+import LocationDropdown from "@/components/location-dropdown";
 
 
 
 
 
 export default function Home() {
+
+  console.log(cities)
   return (
     <Fragment>
       <section id="hero">
@@ -30,22 +34,7 @@ export default function Home() {
         <div className="container-1040">
           <ul className="category-infos">
             <li>
-              <label for="language">
-                <img src={"/location.svg"} alt="location"/>
-                <select className="select" name="language" id="language">
-                  <option value="javascript">Tashkent</option>
-                  <option value="python">Fargona</option>
-                  <option value="c++">Andijon</option>
-                  <option value="java">Sirdaryo</option>
-                  <option value="javascript">Jizzax</option>
-                  <option value="python">Samarqand</option>
-                  <option value="c++">Qashqadaryo</option>
-                  <option value="java">Surxandaryo</option>
-                  <option value="javascript">Buxoro</option>
-                  <option value="python">Navoiy</option>
-                  <option value="c++">Qoraqalpogiston</option>
-                </select>
-              </label>
+                <LocationDropdown/>
             </li>
             <li>
               <DatePicker placeholder="Дата"/>

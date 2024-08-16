@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/select-right-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/select-right-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(public)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +35,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Get-Pin/get-pin/src/components/loginpage&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Get-Pin/get-pin/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -50,8 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\loginpage" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\public" />
+      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\loginpage" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\profile-header" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\register-form" />
       <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
@@ -106,6 +113,8 @@
       <workItem from="1723552417917" duration="993000" />
       <workItem from="1723611881351" duration="9160000" />
       <workItem from="1723631119835" duration="8000" />
+      <workItem from="1723789740414" duration="2105000" />
+      <workItem from="1723800060604" duration="8757000" />
     </task>
     <servers />
   </component>
@@ -208,6 +217,12 @@
           <url>file://$PROJECT_DIR$/src/components/header/index.jsx</url>
           <line>58</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/location-dropdown/index.jsx</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
