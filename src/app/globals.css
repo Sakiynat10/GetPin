@@ -15,12 +15,6 @@ body{
 }
 
 
-
-html{
-  cursor: url('/pin.svg'), auto;
-}
-
-
 *{
   padding: 0;
   margin: 0;
