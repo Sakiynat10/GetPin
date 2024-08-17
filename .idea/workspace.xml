@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/select-right-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/select-right-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/directions.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directions-dropdown/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directions-dropdown/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/providers/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(public)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registerpage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registerpage/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +125,11 @@
       <workItem from="1723611881351" duration="9160000" />
       <workItem from="1723631119835" duration="8000" />
       <workItem from="1723789740414" duration="2105000" />
-      <workItem from="1723800060604" duration="8757000" />
+      <workItem from="1723800060604" duration="9493000" />
+      <workItem from="1723812075859" duration="9000" />
+      <workItem from="1723812100813" duration="35000" />
+      <workItem from="1723874282534" duration="5493000" />
+      <workItem from="1723884718822" duration="10038000" />
     </task>
     <servers />
   </component>
@@ -136,7 +151,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <line>332</line>
+          <line>394</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -220,9 +235,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/location-dropdown/index.jsx</url>
-          <line>20</line>
-          <properties lambdaOrdinal="-1" />
+          <line>23</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/data/index.js</url>
+          <line>297</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/data/index.js</url>
+          <line>322</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/data/index.js</url>
+          <line>347</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/train-category/index.jsx</url>
+          <line>46</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

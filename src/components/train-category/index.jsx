@@ -6,7 +6,7 @@ import { categoryData } from "@/data";
 const TrainCategory = () => {
   const [isShrunk, setIsShrunk] = useState(false);
   const [categoryId , setCategoryId] = useState(1);
-  const [activeCategory, setActiveCategory] = useState("Мастер класс");
+  const [activeCategory, setActiveCategory] = useState("Bce");
 
   const res = ((categoryData.filter((el) => +el.id === +categoryId)).map((el) => el.subCategoryData))
 
@@ -51,11 +51,11 @@ const TrainCategory = () => {
                     </li>
                 </>
             ))}
-            <li style={{display:"flex" , alignItems:"center" , gap:"10px"}}>
-                {res[0].map((res , i) =>
-                    <p key={i}>{res.p}</p>
-                )}
-            </li>
+            {/*<li style={{display:"flex" , alignItems:"center" , gap:"10px"}}>*/}
+            {/*    {res[0].map((res , i) =>*/}
+            {/*        <p key={i}>{res.p}</p>*/}
+            {/*    )}*/}
+            {/*</li>*/}
         </ul>
     </>
   );

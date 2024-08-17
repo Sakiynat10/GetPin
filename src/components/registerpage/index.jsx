@@ -3,6 +3,7 @@ import {useState} from "react";
 
 import "./style.scss"
 import {useRouter} from "next/navigation";
+import SignInButton from "@/components/sign-in";
 
 const RegisterPage = () => {
         const [isChecked, setIsChecked] = useState(true);
@@ -51,6 +52,7 @@ const RegisterPage = () => {
                 <button className={"google-confirm"}>
                     <img src="/google.svg" alt="img"/>
                     Google</button>
+                    <SignInButton/>
                 <div className={"enter"}>
                     <button>У вас нет аккаунта?</button>
                     <button className={"enter-btn-2"}>Войти</button>

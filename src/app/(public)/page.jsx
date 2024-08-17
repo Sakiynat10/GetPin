@@ -11,6 +11,7 @@ import Articles from './../../components/article-section/index';
 import { DatePicker, TimePicker } from "antd";
 import {cities} from "@/data";
 import LocationDropdown from "@/components/location-dropdown";
+import DirectionDropdown from "@/components/directions-dropdown";
 
 
 
@@ -31,21 +32,28 @@ export default function Home() {
         </div>
       </section>
       <section id="category">
-        <div className="container-1040">
-          <ul className="category-infos">
-            <li>
+        <div className="">
+          <div className={"datas"}>
+            <ul className="category-infos container-1040">
+              <li>
+                <DirectionDropdown/>
+              </li>
+              <li>
                 <LocationDropdown/>
-            </li>
-            <li>
-              <DatePicker placeholder="Дата"/>
-            </li>
-            <li className="time-picker">
-              <TimePicker placeholder="Время"/>
-            </li>
-            <CheckBox/>
-          </ul>
-          <TrainCard/>
-          <button className="add-train-btn container-1040">Загрузить еще</button>
+              </li>
+              <li>
+                <DatePicker placeholder="Дата"/>
+              </li>
+              <li className="time-picker">
+                <TimePicker placeholder="Время"/>
+              </li>
+              <CheckBox/>
+            </ul>
+          </div>
+          <div className={"container-1040"}>
+            <TrainCard/>
+            <button className="add-train-btn container-1040">Загрузить еще</button>
+          </div>
         </div>
       </section>
       <Articles/>
