@@ -1,3 +1,5 @@
+
+
 "use client"
 import {useState} from "react";
 
@@ -9,6 +11,7 @@ const RegisterPage = () => {
         const [isChecked, setIsChecked] = useState(true);
         const router = useRouter();
         const [login , setLogin] = useState(true)
+
         const handleChangeType1 = () => {
             setIsChecked(true)
         }
@@ -21,9 +24,17 @@ const RegisterPage = () => {
              setLogin(false);
         }
 
+        const closeRegister = () => {
+            setLogin(false);
+        }
+
+        const stayRegister = (e) => {
+            e.stopPropagation();
+        }
+
     return(
-        <div className={login ? "register-content" : "register-content hide-register"}>
-            <form className={"register-group"}>
+        <div onClick={closeRegister}  className={login ? "register-content" : "register-content hide-register"}>
+            <form onClick={stayRegister} className={"register-group"}>
                 <h3>Регистрация</h3>
                 <div className={"register-check-content"}>
                     <h4>Укажите тип лица</h4>

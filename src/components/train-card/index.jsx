@@ -6,11 +6,11 @@ import VideoPlayer from "./../video-player/index";
 import { trainCard } from "@/data";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import VideoPlayerRes from "@/components/video-player-res";
 
 const TrainCard = ({statistic}) => {
     const [autoPlay , setAutoPlay] = useState(false);
     const router = useRouter();
-    console.log(statistic)
   return (
     <>
       <div
@@ -60,6 +60,10 @@ const TrainCard = ({statistic}) => {
                           </div>
                           <div className="train-subtitle">
                               <span>Дата публикации:</span> {el.train_subtitle}
+                          </div>
+                          <div className="train-video-res"
+                          >
+                                  <VideoPlayerRes src={el.video} autoPlay={autoPlay} className="video-player-res"/> 
                           </div>
                           <div className="train-video"
                           >

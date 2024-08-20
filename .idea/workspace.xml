@@ -4,23 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/directions.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/directions-dropdown/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/directions-dropdown/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/providers/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/auth.js" afterDir="false" />
+    <list default="true" id="8b16417b-beb4-47e0-937c-7878b03e7946" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/video-player-res/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/video-player-res/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(public)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directions-dropdown/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directions-dropdown/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loginpage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginpage/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/registerpage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registerpage/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-input/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/train-card/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -34,11 +35,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2k8Rok9KmDE4y3ZiJ5H8OSXOxYb" />
+  <component name="ProjectId" id="2k8PqM91wFBIB8WaLGhb0VnLfQh" />
   <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -46,13 +46,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Get-Pin/get-pin/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Get-Pin/get-pin&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -66,22 +65,6 @@
       </map>
     </option>
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\public" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\loginpage" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\profile-header" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components\register-form" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\advertisement" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\categories" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin\sub-categories" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\components" />
-      <recent name="C:\Users\user\Desktop\Get-Pin\get-pin\src\app\admin" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,44 +75,18 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="170a05af-7a1c-4a6d-b5a8-7bac84a76069" name="Changes" comment="" />
-      <created>1722663393288</created>
+      <changelist id="8b16417b-beb4-47e0-937c-7878b03e7946" name="Changes" comment="" />
+      <created>1722662420655</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722663393288</updated>
-      <workItem from="1722663394357" duration="17584000" />
-      <workItem from="1722689278170" duration="868000" />
-      <workItem from="1722691372210" duration="1324000" />
-      <workItem from="1722757078550" duration="4683000" />
-      <workItem from="1722791716206" duration="14191000" />
-      <workItem from="1722833404949" duration="4934000" />
-      <workItem from="1722843281076" duration="12534000" />
-      <workItem from="1722919501184" duration="11047000" />
-      <workItem from="1722938965091" duration="12988000" />
-      <workItem from="1723006629454" duration="8257000" />
-      <workItem from="1723015493682" duration="1322000" />
-      <workItem from="1723024240928" duration="6836000" />
-      <workItem from="1723034562292" duration="433000" />
-      <workItem from="1723092759640" duration="8678000" />
-      <workItem from="1723110028611" duration="10175000" />
-      <workItem from="1723179304002" duration="3499000" />
-      <workItem from="1723266149833" duration="9749000" />
-      <workItem from="1723281035895" duration="10498000" />
-      <workItem from="1723437772310" duration="6877000" />
-      <workItem from="1723446410015" duration="1035000" />
-      <workItem from="1723449416675" duration="13791000" />
-      <workItem from="1723524256387" duration="1327000" />
-      <workItem from="1723529997229" duration="5917000" />
-      <workItem from="1723540972887" duration="9037000" />
-      <workItem from="1723552417917" duration="993000" />
-      <workItem from="1723611881351" duration="9160000" />
-      <workItem from="1723631119835" duration="8000" />
-      <workItem from="1723789740414" duration="2105000" />
-      <workItem from="1723800060604" duration="9493000" />
-      <workItem from="1723812075859" duration="9000" />
-      <workItem from="1723812100813" duration="35000" />
-      <workItem from="1723874282534" duration="5493000" />
-      <workItem from="1723884718822" duration="10038000" />
+      <updated>1722662420655</updated>
+      <workItem from="1722662421816" duration="961000" />
+      <workItem from="1723787876734" duration="39000" />
+      <workItem from="1723787926626" duration="47000" />
+      <workItem from="1723870052128" duration="3000" />
+      <workItem from="1723872985603" duration="14000" />
+      <workItem from="1724041826269" duration="18761000" />
+      <workItem from="1724129565916" duration="4792000" />
     </task>
     <servers />
   </component>
@@ -140,127 +97,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/searchtrain-card/index.jsx</url>
-          <line>9</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/train-card/index.jsx</url>
-          <line>20</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <line>394</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/admin/sub-categories/page.jsx</url>
-          <line>54</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/admin-aside/index.jsx</url>
-          <line>1</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/admin/advertisement/[adding]/page.jsx</url>
-          <line>93</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <line>25</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <line>193</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/profile/archive/page.jsx</url>
-          <line>51</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/profile/archive/page.jsx</url>
-          <line>81</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/components/footer/index.jsx</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/(public)/page.jsx</url>
-          <line>1</line>
-          <option name="timeStamp" value="19" />
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/profile/addprofile/page.jsx</url>
-          <line>103</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/src/components/train-card/index.jsx</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/profile/addprofile/page.jsx</url>
-          <line>55</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/profile/addprofile/page.jsx</url>
-          <line>57</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/upload-videos/index.jsx</url>
-          <line>58</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/header/index.jsx</url>
-          <line>19</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/header/index.jsx</url>
-          <line>47</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/header/index.jsx</url>
-          <line>58</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/location-dropdown/index.jsx</url>
-          <line>23</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <line>297</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <line>322</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/index.js</url>
-          <line>347</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/train-category/index.jsx</url>
-          <line>46</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="34" />
+          <url>file://$PROJECT_DIR$/src/app/(public)/page.jsx</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

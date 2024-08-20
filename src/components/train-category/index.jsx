@@ -16,7 +16,7 @@ const TrainCategory = () => {
     }
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 77) {
+      if (window.scrollY > 100) {
         setIsShrunk(true);
       } else {
         setIsShrunk(false);
@@ -32,7 +32,7 @@ const TrainCategory = () => {
     };
   }, [categoryId]);
   return (
-    <>
+    <div className={"container-categ"}>
       <ul
         className={
           isShrunk ? "space" : "none"
@@ -57,7 +57,7 @@ const TrainCategory = () => {
             {/*    )}*/}
             {/*</li>*/}
         </ul>
-    </>
+    </div>
   );
 };
 

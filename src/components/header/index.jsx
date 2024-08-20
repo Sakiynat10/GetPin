@@ -53,7 +53,7 @@ const Header = () => {
           <span className="account" >
             <button onClick={handleRegister} href={"/profile/addprofile"} className="account-title">
               <img src="/plus-header.svg" alt="plus-header"/>
-              Добавить объявления
+              Добавить <span>объявления</span>
             </button>
             {users === "user" ?
                 <button onClick={handleLogin}  className={"account-sign"}>

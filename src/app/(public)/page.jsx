@@ -24,7 +24,7 @@ export default function Home() {
     <Fragment>
       <section id="hero">
         <SearchInput/>
-        <div className="container-1040">
+        <div className="train-categories">
           <TrainCategory/>
           <div className="adv-content">
             <Image fill src={"/advertisment.png"} alt="adv"/>
@@ -32,23 +32,26 @@ export default function Home() {
         </div>
       </section>
       <section id="category">
-        <div className="">
+        <div className="categories">
           <div className={"datas"}>
-            <ul className="category-infos container-1040">
-              <li>
-                <DirectionDropdown/>
-              </li>
-              <li>
-                <LocationDropdown/>
-              </li>
-              <li>
-                <DatePicker placeholder="Дата"/>
-              </li>
-              <li className="time-picker">
-                <TimePicker placeholder="Время"/>
-              </li>
-              <CheckBox/>
-            </ul>
+            <div className={"data container-1040"}>
+              <ul className="category-infos">
+                <li className={"direction"}>
+                  <DirectionDropdown/>
+                </li>
+                <li>
+                  <LocationDropdown/>
+                </li>
+                <li>
+                  <DatePicker placeholder="Дата"/>
+                </li>
+                <li className="time-picker">
+                  <TimePicker placeholder="Время"/>
+                </li>
+                <CheckBox/>
+              </ul>
+
+            </div>
           </div>
           <div className={"container-1040"}>
             <TrainCard/>
@@ -56,45 +59,45 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Articles/>
-      <section id="speaker">
-        <div className="container-1040">
-          <div className="speaker-content">
-            <div className="content-left">
-              <h1>Спикеры на ближайшие даты</h1>
-              <p>Ищете вдохновение и новые знания? Ознакомьтесь с нашими спикерами и направлениями ближайших мероприятий. </p>
-              <p>Выберите понравившегося спикера, запишитесь и получите ценные инсайты от экспертов. Не упустите шанс развиваться и расти вместе с нами!</p>
-              <button>Все спикеров на ближайшие даты</button>
-            </div>
-            <div className="content-right">
-              <div className="speaker-img">
-                <Image fill src={"/speaker-1.png"} alt="speaker-1" />
-              </div>
-              <div className="speaker-img">
-                <Image fill src={"/speaker-2.png"} alt="speaker-1" />
-              </div>
-              <div className="speaker-img">
-                <Image fill src={"/speaker-3.png"} alt="speaker-1" />
-              </div>
-              <div className="speaker-img">
-                <Image fill src={"/speaker-4.png"} alt="speaker-1" />
-              </div>
-              <div className="speaker-img">
-                <Image fill src={"/speaker-5.png"} alt="speaker-1" />
-              </div>
-              <div className="speaker-img">
-                <Image fill src={"/speaker-6.png"} alt="speaker-1" />
-              </div>
-              <div className="speaker-img">
-                <Image fill src={"/speaker-7.png"} alt="speaker-1" />
-              </div>
-              <div className="speaker-img">
-                <Image fill src={"/speaker-8.png"} alt="speaker-1" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/*<Articles/>*/}
+      {/*<section id="speaker">*/}
+      {/*  <div className="container-1040">*/}
+      {/*    <div className="speaker-content">*/}
+      {/*      <div className="content-left">*/}
+      {/*        <h1>Спикеры на ближайшие даты</h1>*/}
+      {/*        <p>Ищете вдохновение и новые знания? Ознакомьтесь с нашими спикерами и направлениями ближайших мероприятий. </p>*/}
+      {/*        <p>Выберите понравившегося спикера, запишитесь и получите ценные инсайты от экспертов. Не упустите шанс развиваться и расти вместе с нами!</p>*/}
+      {/*        <button>Все спикеров на ближайшие даты</button>*/}
+      {/*      </div>*/}
+      {/*      <div className="content-right">*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-1.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-2.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-3.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-4.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-5.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-6.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-7.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*        <div className="speaker-img">*/}
+      {/*          <Image fill src={"/speaker-8.png"} alt="speaker-1" />*/}
+      {/*        </div>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
     </Fragment>
   );
 }

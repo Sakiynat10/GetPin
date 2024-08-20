@@ -1,6 +1,6 @@
+
 .direction-drop{
   display: flex;
-  position: relative;
   gap: 5px;
   background: none;
   border: none;
@@ -19,10 +19,10 @@
     background: #fff;
     box-shadow: 0 10px 10px 1px rgba(0, 0, 0 , 0.12);
     position: absolute;
-    z-index: 50;
+    z-index: 200;
     border-radius: 5px;
-    left: 0;
-    top: 44px;
+    left: 10px;
+    top: 66px;
     padding: 5px;
     span{
       font-size: 14px;

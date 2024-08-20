@@ -1,8 +1,11 @@
 import "./style.scss"
+import {useState} from "react";
 
 const LoginPage = () => {
+    const [hideLogin, setHideLogin] = useState(false);
+    
     return(
-        <div className={"login-content hide-login"}>
+        <div onClick={closeLogin} className={"login-content hide-login"}>
             <form className={"login-group"}>
                 <h3>Вход</h3>
                 <label htmlFor="login">

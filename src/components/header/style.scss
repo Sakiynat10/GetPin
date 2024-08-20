@@ -32,6 +32,7 @@ header{
                 text-align: center;
                 display: flex;
                 align-items: center;
+                gap: 2px;
                 font-family: "SF Pro Text"  ,sans-serif;
                 font-size: 16px;
                 padding: 16px 18px;
@@ -43,6 +44,12 @@ header{
                 letter-spacing: -0.64px;
                 border: none;
                 cursor: pointer;
+                span{
+                    display: none;
+                    @media (min-width:600px) {
+                       display: inline-block;
+                    }
+                }
             }
             .account-sign{
                 width: 80px;

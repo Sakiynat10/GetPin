@@ -8,14 +8,32 @@
     position: relative;
     .hero-content{
     }
+    .train-categories{
+        width: 100%;
+        background: #f6f6f6;
+    }
+    .container-categ{
+        max-width: 1040px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        @media (min-width:1330px) {
+            padding-left: 0;
+        }
+    }
     .category-training{
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        max-width: 750px;
+        max-width: 1060px;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         gap: 10px;
         z-index: 197;
+        padding-top: 5px;
+        padding-bottom: 5px;
         margin-bottom: 30px;
         li{
             a{
@@ -27,6 +45,7 @@
                 text-align: center;
                 color: #131313;
                 padding: 4px 4px;
+                text-transform: uppercase;
             }
         }
         .active-category{
@@ -39,13 +58,28 @@
     .category-fixed{
         position: fixed;
         z-index: 198;
-        top: 30px;
+        top: 72px;
+        background: #F6F6F6;
+        width: 100%;
+        @media (min-width:1330px) {
+            background: transparent;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            top: 28px;
+        }
     }
     .none{
         display: none;
     }
     .space{
-        height: 50px;
+        height: 120px;
+        @media (min-width:540px) {
+             height: 90px;
+        }
+        @media (min-width:540px) {
+            height: 60px;
+        }
     }
     .adv-content{
         position: relative;
@@ -66,11 +100,19 @@
     padding-bottom: 80px;
     .datas{
         background: #fff;
+    }
+    .data{
+        position: relative;
         .category-infos{
             display: flex;
             align-items: center;
             gap: 20px;
-            margin-bottom: 34px;
+            overflow-y: auto;
+            overflow-x:visible;
+            &::-webkit-scrollbar {
+                width: 0;
+                display: none;
+            }
             li{
                 padding-top: 15px;
                 padding-bottom: 15px;
@@ -191,7 +233,6 @@
                 }
             }
         }
-
     }
 }
 
