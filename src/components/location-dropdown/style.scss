@@ -10,13 +10,19 @@
   outline: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 7px;
-  width: 130px;
+  width: 150px;
   position: relative;
   &::before{
     content: url("/location.svg");
-    padding-top: 5px;
+    padding-top: 0px;
   }
+  &::after{
+      content:url("/chevron-down.svg");
+      font-size: 12px;
+      margin-top: 5px;
+     }
 }
 
 .options{

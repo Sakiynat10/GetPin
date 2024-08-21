@@ -100,13 +100,17 @@
     padding-bottom: 80px;
     .datas{
         background: #fff;
+
     }
     .data{
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         .category-infos{
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 8px;
             overflow-y: auto;
             overflow-x:visible;
             &::-webkit-scrollbar {
@@ -114,8 +118,23 @@
                 display: none;
             }
             li{
-                padding-top: 15px;
-                padding-bottom: 15px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                border: 1px solid #E4E4E4;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                &:first-child{
+                    width: 172px;
+                }
+                &:nth-child(2){
+                    width: 170px;
+                }
+                &:nth-child(3){
+                    width: 170px;
+                }
                 a{
                     display: flex;
                     align-items: center;
@@ -163,7 +182,7 @@
                     align-items: center;
                     border:none;
                     background:transparent;
-                    width:100px;
+                    width:130px;
                     padding:0 !important;
                     outline:none;
                     position:relative;
@@ -221,6 +240,7 @@
                 }
             }
             .time-picker{
+                display: flex;
                 .ant-picker-suffix{
                     background:url("/clock.svg");
                     backgroun-repeat:none;

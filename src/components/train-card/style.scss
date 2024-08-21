@@ -299,6 +299,7 @@
         top: 74px;
         right: 74px;
         width: 0px;
+        display: none;
         height: 0px;
         border-radius: 50%;
         object-fit: cover;
@@ -322,13 +323,16 @@
           animation: myfirst 0.5s forwards;
           transition: 1s;
           @keyframes myfirst {
-            from {
+            0% {
+              display: block;
+            }
+            1% {
               top: 14px;
               right: -15px;
               width: 148px;
               height: 148px;
             }
-            to {
+            100%{
               top: 0;
               right: -15px;
               width: 148px;

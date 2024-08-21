@@ -19,7 +19,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
+      if (window.scrollY > 1) {
         setIsShrunk(true);
       } else {
         setIsShrunk(false);
@@ -44,7 +44,7 @@ const Header = () => {
 
   return (
       <>
-    <header>
+    <header className={isShrunk  ?  "header-shrunk" : ""}>
       <nav className="container">
         <div className="nav-top">
           <a className="nav-logo" href="/">

@@ -5,19 +5,23 @@ import "./style.scss";
 const VideoPlayer = ({ autoPlay, src }) => {
   const [isMuted, setIsMuted] = useState(true); // Initial state is muted
   const videoRef = useRef(null);
-  console.log(autoPlay);
 
   const [startX, setStartX] = useState(0);
   const [startY, setStartY] = useState(0);
   const [offsetX, setOffsetX] = useState(0);
   const [offsetY, setOffsetY] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
+  const [loading , setLoading] = useState(true);
 
   const onMouseDown = (e) => {
     setStartX(e.clientX);
     setStartY(e.clientY);
     setIsDragging(true);
   };
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 2000); // 2000ms = 2 seconds
 
   const onMouseMove = (e) => {
     if (!isDragging) return;

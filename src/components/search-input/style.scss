@@ -8,7 +8,6 @@
     margin-bottom: 38px;
     display: flex;
     align-items: center;
-    border: none;
     outline: none;
     color: #131313;
     transition: 1s;
@@ -16,16 +15,17 @@
     max-width: 355px;
     width: 100%;
     height: 46px;
-    border-radius:50px;
+    border-radius: 10px;
     background: #fff;
+    border: 1px solid #f6f6f6;
     margin-left: 0;
     input{
         padding: 5px 10px 3px 38px;
         font-size: 16px;
-        border-radius: 50px;
         max-width: 500px;
         width: 100%;
-        background-color: transparent;
+        border-radius: 10px;
+        background: #FFF;
         border: none;
         outline: none;
     }
@@ -40,14 +40,31 @@
     }
     @media (min-width:1320px) {
         margin-top: -74px;
-        width: 294px;
+        width: 344px;
         z-index: 200;
-        margin-left: -15px;
+        margin-left: 170px;
     }
+}
+
+.location-header{
+    margin-top: -74px;
+    margin-left: -15px;
+    position: relative;
+    z-index: 200;
+    margin-bottom: 28px;
+    border-radius: 10px;
+    border: 1px solid #f6f6f6;
+    background: #FFF;
+    width: 182px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search-content{
     position: relative;
+    background: red;
     .search-content-cards{
         background: red;
     }

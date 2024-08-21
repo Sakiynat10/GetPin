@@ -48,8 +48,8 @@ export default function Home() {
                 <li className="time-picker">
                   <TimePicker placeholder="Время"/>
                 </li>
-                <CheckBox/>
               </ul>
+              <CheckBox/>
 
             </div>
           </div>
