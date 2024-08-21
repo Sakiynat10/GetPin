@@ -6,6 +6,9 @@ main{
         margin-left: 266px;
         width: 510px;
         margin-top: 9px;
+        .train-cards{
+
+        }
         .card-outline{
           border-radius: 12px;
         }
@@ -47,7 +50,7 @@ main{
             .train-card-statistics{
               display: flex;
               position: relative;
-              margin-top: 9px;
+              margin-top: 10px;
               z-index: 20;
               gap: 10px;
               background: rgba(255, 236, 65, 0.2);

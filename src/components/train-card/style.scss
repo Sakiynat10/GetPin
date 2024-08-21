@@ -5,15 +5,9 @@
   gap:10px;
   margin-bottom: 48px;
   margin-top: 34px;
-  @media (min-width:800px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: nowrap;
-  }
+  position: relative;
   .card-outline{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     background: #fff;
     width: 100%;
     overflow: hidden;
@@ -36,8 +30,7 @@
     border-radius: 2px;
     padding: 30px 10px 20px;
     background-color: #fff;
-    //max-width: 487px;
-    max-width: 600px;
+    max-width: 487px;
     width: 100%;
     margin-bottom: 20px;
     @media (min-width:800px) {
@@ -180,51 +173,6 @@
       opacity: 0.4;
       text-align: left;
     }
-    .train-video {
-      display: none;
-      position: absolute;
-      top: 97px;
-      right: 0px;
-      width: 0px;
-      height: 0px;
-      border-radius: 50px;
-      z-index: 10;
-      @media (min-width: 1331px) {
-          display: block;
-      }
-      .mute {
-        background-color: transparent;
-        position: absolute;
-        bottom: 54px;
-        left: 58px;
-        width: 0px;
-        height: 0px;
-        border-radius: 50%;
-        fill: rgba(255, 255, 255, 0.03);
-
-        stroke-width: 1px;
-        stroke: rgba(255, 255, 255, 0.1);
-        border: 2px solid #ffffff2d;
-        backdrop-filter: blur(12px);
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        img {
-          width: 0px;
-          height: 0px;
-        }
-      }
-      .video {
-        position: relative;
-        top: 74px;
-        right: 74px;
-        width: 0px;
-        height: 0px;
-        border-radius: 50%;
-        object-fit: cover;
-        transition: 0.5s;
-      }
-    }
 
     .train-video-res {
       position: absolute;
@@ -313,6 +261,50 @@
       }
     }
 
+    .train-video {
+      position: absolute;
+      top: 97px;
+      right: 0px;
+      width: 0px;
+      height: 0px;
+      border-radius: 50px;
+      z-index: 10;
+      @media (min-width: 1331px) {
+        display: block;
+      }
+      .mute {
+        background-color: transparent;
+        position: absolute;
+        bottom: 54px;
+        left: 58px;
+        width: 0px;
+        height: 0px;
+        border-radius: 50%;
+        fill: rgba(255, 255, 255, 0.03);
+
+        stroke-width: 1px;
+        stroke: rgba(255, 255, 255, 0.1);
+        border: 2px solid #ffffff2d;
+        backdrop-filter: blur(12px);
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        img {
+          width: 0px;
+          height: 0px;
+        }
+      }
+      .video {
+        position: relative;
+        top: 74px;
+        right: 74px;
+        width: 0px;
+        height: 0px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: 0.5s;
+      }
+    }
 
     &:hover {
       .train-video {
@@ -328,16 +320,16 @@
           border-radius: 50%;
           object-fit: cover;
           animation: myfirst 0.5s forwards;
-          transition: 0.5s;
+          transition: 1s;
           @keyframes myfirst {
             from {
-              top: 74px;
-              right: 74px;
-              width: 0;
-              height: 0;
+              top: 14px;
+              right: -15px;
+              width: 148px;
+              height: 148px;
             }
             to {
-              top: 0px;
+              top: 0;
               right: -15px;
               width: 148px;
               height: 148px;
