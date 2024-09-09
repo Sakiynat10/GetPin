@@ -6,7 +6,15 @@
     padding-top: 80px;
     margin-top: 10px;
     position: relative;
-    .hero-content{
+    .search-content{
+        .location-header{
+            position: relative;
+            .options{
+                position: absolute;
+                left: 0;
+                z-index: 0;
+            }
+        }
     }
     .train-categories{
         width: 100%;
@@ -100,7 +108,6 @@
     padding-bottom: 80px;
     .datas{
         background: #fff;
-
     }
     .data{
         position: relative;
@@ -126,6 +133,12 @@
                 border: 1px solid #E4E4E4;
                 margin-top: 5px;
                 margin-bottom: 5px;
+                .options{
+                    position: absolute;
+                    left: 190px;
+                    top: 60px;
+                    z-index: 99;
+                }
                 &:first-child{
                     width: 172px;
                 }

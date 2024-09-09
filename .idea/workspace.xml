@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b16417b-beb4-47e0-937c-7878b03e7946" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/chevron-down.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/location.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(public)/layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(public)/page.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directions-dropdown/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directions-dropdown/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-input/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-card/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/video-player/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video-player/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +41,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,7 +62,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -88,7 +82,11 @@
       <workItem from="1724041826269" duration="18761000" />
       <workItem from="1724129565916" duration="5148000" />
       <workItem from="1724217315375" duration="7635000" />
-      <workItem from="1724233242101" duration="8772000" />
+      <workItem from="1724233242101" duration="9174000" />
+      <workItem from="1724474053314" duration="148000" />
+      <workItem from="1724925209209" duration="1051000" />
+      <workItem from="1725856432335" duration="18000" />
+      <workItem from="1725857394044" duration="7138000" />
     </task>
     <servers />
   </component>
@@ -104,18 +102,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/(public)/page.jsx</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/train-card/index.jsx</url>
           <line>51</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/(public)/page.jsx</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/components/location-dropdown/index.jsx</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
