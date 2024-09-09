@@ -72,7 +72,7 @@ const Header = () => {
     </header>
         {register  ? <RegisterPage/>  : <></>}
         {/*{login  ? <LoginPage/>  : <></>}*/}
-        {login  ? <ConfirmationPage/>  : <></>}
+        {login  ? <LoginPage/>  : <></>}
       </>
   );
 };

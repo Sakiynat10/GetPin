@@ -61,10 +61,6 @@ const TrainCard = ({statistic}) => {
                           <div className="train-subtitle">
                               <span>Дата публикации:</span> {el.train_subtitle}
                           </div>
-                          <div className="train-video-res"
-                          >
-                                  <VideoPlayerRes src={el.video} autoPlay={autoPlay} className="video-player-res"/> 
-                          </div>
                           <div className="train-video"
                           >
                               {autoPlay ?
