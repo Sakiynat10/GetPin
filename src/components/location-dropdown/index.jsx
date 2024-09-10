@@ -1,9 +1,10 @@
 "use client";
 
 import { cities } from "@/data";
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import "./style.scss";
 import { useDetectClickOutside } from "react-detect-click-outside";
+import SkeletonLoading from "@/components/skeleton-main-page-loading";
 
 const LocationDropDown = () => {
     const [value, setValue] = useState("Toshkent");
@@ -30,11 +31,22 @@ const LocationDropDown = () => {
 
     const ref = useDetectClickOutside({ onTriggered: closeDropdown });
 
+
+    /*Loading*/
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 3000);
+
+        return () => clearTimeout(timer);
+    }, []);
     return (
         <>
-            <div ref={ref} onClick={handleReSet} className="select">
+            {loading ? <SkeletonLoading w={"170px"} h={"40px"}/> : <div ref={ref} onClick={handleReSet} className="select">
                 {value}
-            </div>
+            </div>}
             {act && (
                 <span className={act === "as" ? "options" : "options hidden-options"}>
           {cities?.map(({ city, id, regions }) => (

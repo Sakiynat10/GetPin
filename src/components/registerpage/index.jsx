@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import { useRouter } from "next/navigation";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -39,6 +39,8 @@ const RegisterPage = () => {
     const stayRegister = (e) => {
         e.stopPropagation();
     };
+
+    /*Loading*/
 
     return (
         <div onClick={closeRegister} className={login ? "register-content" : "register-content hide-register"}>
