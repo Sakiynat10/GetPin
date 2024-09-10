@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b16417b-beb4-47e0-937c-7878b03e7946" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/search-input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,8 @@
       <workItem from="1725857394044" duration="8852000" />
       <workItem from="1725876998918" duration="8471000" />
       <workItem from="1725942191075" duration="10090000" />
-      <workItem from="1725959977595" duration="3790000" />
+      <workItem from="1725959977595" duration="5224000" />
+      <workItem from="1725969419808" duration="2637000" />
     </task>
     <servers />
   </component>
@@ -93,7 +95,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/footer/index.jsx</url>
-          <line>5</line>
+          <line>17</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
