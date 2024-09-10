@@ -24,7 +24,7 @@ const SearchInput = ({isShrunk}) => {
   return (
       <div className="container-1040 search-content">
         <div className={"location-header"}>
-            {loading ? <SkeletonLoading h={"46px"} w={"182px"} b={"10px"}/> : <LocationDropdown/>}
+             <LocationDropdown head={"head"} />
         </div>
         <form className={isShrunk ? "search-input top-input" : "search-input"}>
             {loading ? <SkeletonLoading h={"46px"} w={"355px"} b={"10px"} />

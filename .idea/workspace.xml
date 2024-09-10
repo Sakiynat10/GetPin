@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b16417b-beb4-47e0-937c-7878b03e7946" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/adv-content/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/datapicker/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skeleton-main-page-loading/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/speaker-section/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/time-picker/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/article-section/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article-section/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directions-dropdown/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directions-dropdown/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/registerpage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registerpage/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search-input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +81,7 @@
       <workItem from="1725857394044" duration="8852000" />
       <workItem from="1725876998918" duration="8471000" />
       <workItem from="1725942191075" duration="10090000" />
-      <workItem from="1725959977595" duration="3498000" />
+      <workItem from="1725959977595" duration="3790000" />
     </task>
     <servers />
   </component>

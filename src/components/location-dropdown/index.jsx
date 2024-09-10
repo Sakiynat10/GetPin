@@ -6,7 +6,7 @@ import "./style.scss";
 import { useDetectClickOutside } from "react-detect-click-outside";
 import SkeletonLoading from "@/components/skeleton-main-page-loading";
 
-const LocationDropDown = () => {
+const LocationDropDown = ({head}) => {
     const [value, setValue] = useState("Toshkent");
     const [regionValue, setRegionValue] = useState("Yakkasaroy");
     const [act, setAct] = useState("");
@@ -44,7 +44,7 @@ const LocationDropDown = () => {
     }, []);
     return (
         <>
-            {loading ? <SkeletonLoading w={"170px"} h={"40px"}/> : <div ref={ref} onClick={handleReSet} className="select">
+            {loading ? <SkeletonLoading w={head === "head"  ? "180px":"170px"} h={head==="head" ? "45px": "40px"}/> : <div ref={ref} onClick={handleReSet} className="select">
                 {value}
             </div>}
             {act && (
