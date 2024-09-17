@@ -1,4 +1,20 @@
+ .container-search-content-1040{
+     margin-left: 25%;
+     max-width: 300px;
+     width: 100%;
+     transition: 0.5s;
+     @media (min-width: 740px) {
+         margin-left: 20%;
+     }
+     @media (min-width: 1000px) {
+         margin-left: 16%;
+     }
+ }
 
+ .top-search-content{
+     transform: translateX(-50px);
+     transition: 0.5s;
+ }
 
 .search-input{
     position: relative;
@@ -11,8 +27,8 @@
     outline: none;
     color: #131313;
     transition: 1s;
-    z-index: 20;
-    max-width: 355px;
+    z-index: 200;
+    max-width: 200px;
     width: 100%;
     height: 46px;
     border-radius: 10px;
@@ -22,12 +38,16 @@
     input{
         padding: 5px 10px 3px 38px;
         font-size: 16px;
-        max-width: 500px;
+        max-width: 200px;
         width: 100%;
         border-radius: 10px;
         background: #FFF;
         border: none;
         outline: none;
+        @media (min-width:1245px) {
+            width: 344px;
+            z-index: 200;
+        }
     }
     .search-btn{
         position: absolute;
@@ -38,16 +58,15 @@
         width: 18px;
         height: 18px;
     }
-    @media (min-width:1320px) {
-        margin-top: -74px;
-        width: 344px;
-        z-index: 200;
-        margin-left: 170px;
+    @media (min-width: 740px) {
+        max-width: 237px;
+    }
+    @media (min-width:1245px) {
+        max-width: 344px;
     }
 }
 
 .location-header{
-    margin-top: -74px;
     margin-left: -15px;
     position: relative;
     z-index: 200;
@@ -64,6 +83,14 @@
 
 .search-content{
     position: relative;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-top: -77px;
+    //@media (min-width:1245px) {
+    //    display: block;
+    //    align-items: self-start;
+    //}
     .search-content-cards{
         background: red;
     }

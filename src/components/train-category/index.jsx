@@ -17,7 +17,7 @@ const TrainCategory = () => {
     }
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 70) {
+      if (window.scrollY > 30) {
         setIsShrunk(true);
       } else {
         setIsShrunk(false);

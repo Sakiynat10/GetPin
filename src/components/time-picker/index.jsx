@@ -5,6 +5,7 @@ import {useEffect, useState} from "react";
 
 const TimePickers = () => {
     const [loading, setLoading] = useState(true);
+    const format = 'HH:mm';
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -16,7 +17,7 @@ const TimePickers = () => {
     return(
         <>
             {loading ? <SkeletonLoading w={"140px"} h={"40px"} /> :
-                <TimePicker placeholder="Время"/>            }
+                <TimePicker format={format} placeholder="Время"/>            }
         </>
     )
 }

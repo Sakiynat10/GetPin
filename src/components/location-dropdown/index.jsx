@@ -1,15 +1,15 @@
 "use client";
 
 import { cities } from "@/data";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import "./style.scss";
 import { useDetectClickOutside } from "react-detect-click-outside";
 import SkeletonLoading from "@/components/skeleton-main-page-loading";
 
-const LocationDropDown = ({head}) => {
+const LocationDropDown = ({ head }) => {
     const [value, setValue] = useState("Toshkent");
     const [regionValue, setRegionValue] = useState("Yakkasaroy");
-    const [act, setAct] = useState("");
+    const [act, setAct] = useState(false); // Toggle dropdown with a boolean
 
     const handleValueOption = (city) => {
         setValue(city);
@@ -17,22 +17,21 @@ const LocationDropDown = ({head}) => {
 
     const handleRegionValue = (region, acts) => {
         setRegionValue(region);
-        setAct(acts);
+        setAct(false); // Close the dropdown after choosing a region
     };
 
-    const handleReSet = () => {
-        setAct("as");
+    const handleToggleDropdown = () => {
+        setAct(!act); // Toggle dropdown open/close
     };
 
     // Detect click outside using `react-detect-click-outside`
     const closeDropdown = () => {
-        setAct("");
+        setAct(false); // Close the dropdown when clicking outside
     };
 
     const ref = useDetectClickOutside({ onTriggered: closeDropdown });
 
-
-    /*Loading*/
+    /* Loading */
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -42,23 +41,27 @@ const LocationDropDown = ({head}) => {
 
         return () => clearTimeout(timer);
     }, []);
+    
+
     return (
         <>
-            {loading ? <SkeletonLoading w={head === "head"  ? "180px":"170px"} h={head==="head" ? "45px": "40px"}/> : <div ref={ref} onClick={handleReSet} className="select">
-                {value}
-            </div>}
+            {loading ? (
+                <SkeletonLoading w={head === "head" ? "180px" : "170px"} h={head === "head" ? "45px" : "40px"} />
+            ) : (
+                <div  onClick={handleToggleDropdown} className="select">
+                    {value}
+                </div>
+            )}
             {act && (
-                <span className={act === "as" ? "options" : "options hidden-options"}>
+                <span ref={ref} className="options">
           {cities?.map(({ city, id, regions }) => (
               <span
                   key={id}
-                  onMouseEnter={() => handleValueOption(city)}
+                  onMouseEnter={(e) => handleValueOption(city , e.stopPropagation)} // Use onClick instead of onEnterMouse
                   className={value === city ? "option active" : "option"}
               >
               {city}
-                  <span
-                      className={value === city ? "regions active-region" : "regions"}
-                  >
+                  <span  className={value === city ? "regions active-region" : "regions"}>
                 {regions.map((region, i) => (
                     <span
                         onClick={() =>

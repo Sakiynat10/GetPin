@@ -50,6 +50,12 @@ header{
                 font-weight: 400;
                 line-height: normal;
                 letter-spacing: -0.64px;
+                span{
+                    display: none;
+                    @media (min-width: 1300px) {
+                        display: inline-block;
+                    }
+                }
             }
             .account-sign{
                 width: 80px;

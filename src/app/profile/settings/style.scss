@@ -1,5 +1,6 @@
 .settings-content{
   display: flex;
+  flex-wrap: wrap;
   .settings-tab, .settings-infos{
     margin-left: 266px;
   }
@@ -20,6 +21,7 @@
     width: 510px;
     border-radius: 12px;
     position: relative;
+    margin-bottom: 30px;
     .settings-photo{
       padding: 27px 43px 20px 17px;
       display: flex;

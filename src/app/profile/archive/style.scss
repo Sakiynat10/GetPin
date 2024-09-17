@@ -1,7 +1,8 @@
 .archive{
   display: flex;
+  flex-wrap: wrap;
   .archive-main{
-    padding-bottom: 90px;
+    padding-bottom: 30px;
     .archive-tabs{
       display: flex;
       align-items: center;

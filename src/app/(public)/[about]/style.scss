@@ -1,6 +1,7 @@
 #about {
   padding-top: 90px;
   padding-bottom: 90px;
+  background: #F6F6F6;
 
   .search-input {
     position: fixed !important;
@@ -9,6 +10,7 @@
     display: flex;
     gap: 16px;
     margin-bottom: 16px;
+    margin-top: 75px;
     a {
       color: #282828;
       font-size: 12px;
@@ -19,10 +21,21 @@
   .about-container {
     .about-contents {
       position: relative;
-      display: grid;
-      grid-template-columns: 654px 297px;
       margin-left: 59px;
+
       gap: 27px;
+      @media (min-width: 900px) {
+        display: grid;
+        grid-template-columns: 600px 220px;
+      }
+      @media (min-width: 960px) {
+        display: grid;
+        grid-template-columns: 590px 180px;
+      }
+      @media (min-width: 1070px) {
+        display: grid;
+        grid-template-columns: 654px 297px;
+      }
       .about-content-left {
         .about-content-medias {
           position: absolute;
@@ -62,6 +75,7 @@
           position: fixed;
           margin-top: -45px;
           margin-left: -59px;
+          z-index: 1;
         }
         .about-content-infos {
           background-color: #fff;
@@ -189,7 +203,6 @@
             .sign-title,
             .attend-title {
               margin-bottom: 30px;
-              width: 491px;
               color: #282828;
               font-size: 14px;
               font-weight: 400;
@@ -207,14 +220,21 @@
       }
       .about-content-right {
         h3 {
+          display: inline-block;
           margin-top: 40px;
           color: #131313;
           font-size: 17px;
           font-weight: 400;
           margin-bottom: 32px;
+          margin-right: 50px;
+          @media (min-width: 900px) {
+            display: block;
+            margin-right: 0px;
+          }
         }
         a {
           display: inline-block;
+          text-align: right;
           padding: 20px 39px;
           background: #a9ffe0;
           border-radius: 4px;
@@ -224,10 +244,15 @@
           margin-bottom: 32px;
         }
         .right-datas{
+          display: grid;
+          grid-template-columns:auto auto auto auto;
+
+            gap: 16px;
+          @media (min-width: 900px) {
             width: 250px;
             display:flex;
             flex-wrap:wrap;
-            gap: 16px;
+          }
             div{
                 span{
                     color: #131313;
@@ -279,14 +304,17 @@
         }
       }
     }
+  }
+  @media (min-width: 900px) {
     .none-medias-content{
       position:relative;
       .about-content-left{
         .media-fixed{
           position: absolute;
-          display: flex;
+          display: none;
+          z-index: -1;
           gap: 1px;
-          bottom:0;
+          bottom:-50px;
           flex-direction: column;
           margin-left: -59px;
         }

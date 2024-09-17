@@ -1,5 +1,12 @@
 // styles/global.scss
 
+.check-subtitle{
+  display: none;
+  @media (min-width: 1375px) {
+    display: inline-block;
+  }
+}
+
 .toggle-switch {
   display: flex;
   align-items: center;
@@ -25,11 +32,14 @@
       position: absolute;
       width: 16px;
       height: 16px;
-      left: 22px;
+      left: 19px;
       bottom: 2px;
       background-color: white;
       border-radius: 50%;
       transition: transform 0.2s;
+      @media (min-width: 860px) {
+        left: 21px;
+      }
     }
   }
 
@@ -37,7 +47,7 @@
     background-color:  #ccc;
 
     &:before {
-      transform: translateX(-20px);
+      transform: translateX(-18px);
     }
   }
 }

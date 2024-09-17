@@ -69,7 +69,7 @@ const AboutSection = () => {
 
   return (
     <section id="about">
-      <SearchInput />
+      <SearchInput about={"about"} />
       <div className="container-1040 about-container">
         <ul className="page-tabs">
           <li>

@@ -43,7 +43,7 @@ const ProfileHeader = () => {
                     <span className="account" >
                     <a href={"/account"} className="account-title">
                       <img src="/plus-header.svg" alt="plus-header"/>
-                      Добавить объявления
+                      Добавить <span>объявления</span>
                     </a>
                         {users === "user" ?
                             <a href={"/register"}  className={"account-sign"}>

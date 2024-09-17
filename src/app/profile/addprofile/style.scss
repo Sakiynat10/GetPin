@@ -4,6 +4,10 @@
     align-items: center;
     gap: 16px;
     margin-bottom: 30px;
+    padding-left: 10px;
+    @media (min-width: 1200px) {
+      padding-left: 0;
+    }
     li{
       a{
         color: #282828;
@@ -14,11 +18,21 @@
   }
   .adding-profile-content{
     display: flex;
+    justify-content: space-between;
     max-width: 900px;
-    gap: 80px;
+    gap: 10px;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
+    @media (min-width: 830px) {
+      gap: 80px;
+    }
+    @media (min-width: 930px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
     .adding-main-content{
       h3{
         color: #282828;
@@ -30,8 +44,11 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
-        width:525px;
+        width:440px;
         position: relative;
+        @media (min-width: 930px) {
+           width: 525px;
+        }
         .issue-input{
           max-width:525px;
           width:100%;
@@ -107,7 +124,10 @@
           }
         }
         .media-content , .swiper{
-          width: 526px;
+          width: 440px;
+          @media (min-width: 930px) {
+            width: 526px;
+          }
         }
         .swiper{
           position: relative;
@@ -116,13 +136,21 @@
           border: 1px solid #E3E4E8;
           background: #FFF;
           .swiper-button-prev{
-            left:137px;
+            left:90px;
             top: 206px;
+            @media (min-width: 930px) {
+              left:137px;
+              top: 206px;
+            }
           }
 
           .swiper-button-next{
-            right:131px;
+            right:90px;
             top: 206px;
+            @media (min-width: 930px) {
+              right:131px;
+              top: 206px;
+            }
           }
         }
         .mediaWrapper{
@@ -138,13 +166,20 @@
             margin-bottom: 150px !important;
             position: absolute;
             top: 183px;
-            left: 190px;
+            left: 145px;
             color: #000;
+            @media (min-width: 930px) {
+              top: 183px;
+              left: 190px;
+            }
           }
         }
         .swiper-pagination{
-          width: 526px !important;
+          width: 460px !important;
           opacity: 1;
+          @media (min-width: 930px) {
+            width: 526px !important;
+          }
         }
         .data-group{
           display: grid;

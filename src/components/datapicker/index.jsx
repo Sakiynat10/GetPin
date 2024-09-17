@@ -2,6 +2,12 @@
 import {DatePicker} from "antd";
 import SkeletonLoading from "@/components/skeleton-main-page-loading";
 import {useEffect, useState} from "react";
+import moment from "moment";
+import 'moment/locale/uz';
+
+moment.locale('uz');
+
+const dateFormat = 'DD MMMM YYYY';
 
 const DataPicekr = () => {
     const [loading, setLoading] = useState(true);
@@ -16,7 +22,7 @@ const DataPicekr = () => {
     return(
         <>
             {loading ? <SkeletonLoading w={"170px"} h={"40px"}/> :
-                <DatePicker placeholder="Дата"/>
+                <DatePicker  format={dateFormat} placeholder="Дата"/>
             }
         </>
     )

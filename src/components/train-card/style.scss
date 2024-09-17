@@ -1,11 +1,15 @@
 .train-cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   gap:10px;
   margin-bottom: 48px;
   margin-top: 34px;
   position: relative;
+  @media (min-width: 1345px) {
+    display: flex;
+    flex-wrap:wrap;
+  }
   .card-outline{
     position: relative;
     background: #fff;

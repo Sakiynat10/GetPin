@@ -6,11 +6,28 @@ import SearchTrainCard from "@/components/searchtrain-card";
 import LocationDropdown from "@/components/location-dropdown";
 import SkeletonLoading from "@/components/skeleton-main-page-loading";
 
-const SearchInput = ({isShrunk}) => {
+const SearchInput = ({about}) => {
   const [searchValue, setSearchValue] = useState("");
-  const handleValue = (e) => {
+    const [isShrunk, setIsShrunk] = useState(false);
+
+    const handleValue = (e) => {
     setSearchValue(e.target.value)
   }
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 30) {
+                setIsShrunk(true);
+            } else {
+                setIsShrunk(false);
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
 
     const [loading, setLoading] = useState(true);
 
@@ -22,12 +39,14 @@ const SearchInput = ({isShrunk}) => {
         return () => clearTimeout(timer);
     }, []);
   return (
-      <div className="container-1040 search-content">
-        <div className={"location-header"}>
-             <LocationDropdown head={"head"} />
-        </div>
-        <form className={isShrunk ? "search-input top-input" : "search-input"}>
-            {loading ? <SkeletonLoading h={"46px"} w={"355px"} b={"10px"} />
+      <div className={isShrunk  ? "container-search-content-1040 search-content top-search-content"  :"container-search-content-1040 search-content"}>
+          {about ? "" :
+              <div className={"location-header"}>
+                  <LocationDropdown head={"head"}/>
+              </div>
+          }
+          <form className={isShrunk ? "search-input top-input" : "search-input"}>
+              {loading ? <SkeletonLoading h={"46px"} w={"355px"} b={"10px"} />
                 :
                 <>
                     <input onChange={handleValue} type="text" placeholder="Поиск"/>

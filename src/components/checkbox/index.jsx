@@ -23,7 +23,7 @@ const CheckBox = () => {
   return (
       <Fragment>
           {loading ? <SkeletonLoading  w={"200px"} h={"40px"}/> : <label className="toggle-switch">
-              <span>Показать только платные</span>
+              <span><span className={"check-subtitle"}>Показать</span> Tолько платные</span>
               <input onClick={handleCheckValue} type="checkbox"/>
               <span className="slider"></span>
           </label>}

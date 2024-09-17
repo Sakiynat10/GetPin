@@ -11,7 +11,7 @@
             position: relative;
             .options{
                 position: absolute;
-                left: 0;
+                left:0px;
                 z-index: 0;
             }
         }
@@ -79,6 +79,7 @@
     }
     .none{
         display: none;
+        transition: 0.5s;
     }
     .space{
         height: 120px;
@@ -114,6 +115,7 @@
     .data{
         position: relative;
         display: flex;
+        gap: 10px;
         align-items: center;
         justify-content: space-between;
         .category-infos{
@@ -145,10 +147,10 @@
                     width: 172px;
                 }
                 &:nth-child(2){
-                    width: 170px;
+                    width: 185px;
                 }
                 &:nth-child(3){
-                    width: 170px;
+                    width: 220px;
                 }
                 a{
                     display: flex;
@@ -197,7 +199,7 @@
                     align-items: center;
                     border:none;
                     background:transparent;
-                    width:130px;
+                    width:150px;
                     padding:0 !important;
                     outline:none;
                     position:relative;
@@ -256,6 +258,7 @@
             }
             .time-picker{
                 display: flex;
+                width: 90px;
                 .ant-picker-suffix{
                     background:url("/clock.svg");
                     backgroun-repeat:none;
@@ -275,9 +278,14 @@
     padding-top: 100px;
     padding-bottom: 80px;
     .speaker-content{
-        display: grid;
-        grid-template-columns: 426px 540px;
-        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        @media (min-width: 1023px) {
+            display: grid;
+            grid-template-columns: 426px 540px;
+            justify-content: space-between;
+        }
         .content-left{
             h1{
                 color: #131313;
@@ -309,8 +317,13 @@
             }
         }
         .content-right{
-            display: grid;
-            grid-template-columns: auto auto auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            @media (min-width: 1023px) {
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
             .speaker-img{
                 position: relative;
                 width: 180px;

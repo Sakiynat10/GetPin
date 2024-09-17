@@ -1,8 +1,20 @@
 .recommendation{
-  width: 224px;
-  margin-left: 817px;
-  position: fixed;
-  margin-top: 55px;
+  display: block;
+  margin-left: 270px;
+  margin-bottom: 30px;
+  @media (min-width: 920px){
+    width: 130px;
+    margin-left: 790px;
+    position: fixed;
+    margin-top: 55px;
+  }
+  @media (min-width: 950px) {
+    width: 170px;
+  }
+  @media (min-width: 1040px) {
+    width: 224px;
+    margin-left: 817px;
+  }
   h1{
     color: #282828;
     font-size: 15px;
