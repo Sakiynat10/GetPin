@@ -26,6 +26,7 @@
         margin-left: auto;
         margin-right: auto;
         padding-left: 10px;
+        margin-bottom: 30px;
         @media (min-width:1330px) {
             padding-left: 0;
         }
@@ -36,13 +37,12 @@
         flex-wrap: wrap;
         max-width: 1060px;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
         gap: 10px;
         z-index: 197;
         padding-top: 5px;
         padding-bottom: 5px;
-        margin-bottom: 30px;
+        margin-left: -11px;
+        padding-left: 11px;
         li{
             a{
                 font-family: Roboto;
@@ -69,12 +69,15 @@
         top: 72px;
         background: #F6F6F6;
         width: 100%;
+        margin-bottom: 100px;
         @media (min-width:1330px) {
             background: transparent;
             max-width: 900px;
             margin-left: auto;
             margin-right: auto;
             top: 28px;
+            margin-left: 0;
+            padding-left: 0;
         }
     }
     .none{
