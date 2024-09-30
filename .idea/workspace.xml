@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b16417b-beb4-47e0-937c-7878b03e7946" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommendation/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommendation/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <workItem from="1727157382048" duration="1145000" />
       <workItem from="1727174536833" duration="964000" />
       <workItem from="1727242945950" duration="17000" />
-      <workItem from="1727672945796" duration="4771000" />
+      <workItem from="1727672945796" duration="6656000" />
     </task>
     <servers />
   </component>
@@ -117,7 +117,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/location-dropdown/index.jsx</url>
-          <line>30</line>
+          <line>34</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -127,7 +127,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/location-dropdown/index.jsx</url>
-          <line>58</line>
+          <line>62</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

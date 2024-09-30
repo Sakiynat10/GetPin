@@ -8,11 +8,15 @@ import SkeletonLoading from "@/components/skeleton-main-page-loading";
 
 const LocationDropDown = ({ head }) => {
     const [value, setValue] = useState("Toshkent");
+    const [value1, setValue1] = useState("Toshkent");
     const [regionValue, setRegionValue] = useState("Yakkasaroy");
     const [act, setAct] = useState(false); // Toggle dropdown with a boolean
 
-    const handleValueOption = (city) => {
+    const handleEnterValueOption = (city) => {
         setValue(city);
+    };
+    const handleClickValueOption = (city) => {
+        setValue1(city);
     };
 
     const handleRegionValue = (region, acts) => {
@@ -49,7 +53,7 @@ const LocationDropDown = ({ head }) => {
                 <SkeletonLoading w={head === "head" ? "180px" : "170px"} h={head === "head" ? "45px" : "40px"} />
             ) : (
                 <div  onClick={handleToggleDropdown} className="select">
-                    {value}
+                    {value1}
                 </div>
             )}
             {act && (
@@ -57,7 +61,8 @@ const LocationDropDown = ({ head }) => {
           {cities?.map(({ city, id, regions }) => (
               <span
                   key={id}
-                  onMouseEnter={(e) => handleValueOption(city , e.stopPropagation)} // Use onClick instead of onEnterMouse
+                  onClick={(e) => handleClickValueOption(city , e.stopPropagation)} // Use onClick instead of onEnterMouse
+                  onMouseEnter={(e) => handleEnterValueOption(city , e.stopPropagation)}
                   className={value === city ? "option active" : "option"}
               >
               {city}
