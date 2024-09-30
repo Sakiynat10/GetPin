@@ -144,13 +144,12 @@
                     z-index: 99;
                 }
                 &:first-child{
-                    width: 172px;
+                    padding: 0 10px;
                 }
                 &:nth-child(2){
-                    width: 185px;
                 }
                 &:nth-child(3){
-                    width: 220px;
+                    padding:0 10px;
                 }
                 a{
                     display: flex;

@@ -6,34 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8b16417b-beb4-47e0-937c-7878b03e7946" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(public)/[about]/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/[about]/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(public)/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/addprofile/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/addprofile/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/archive/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/archive/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/poster/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/poster/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/records/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/records/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/settings/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/settings/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about-section/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-section/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/article-section/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/article-section/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousel/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousel/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/datapicker/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/datapicker/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile-aside/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-aside/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile-header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile-header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile-header/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location-dropdown/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/recommendation/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommendation/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-input/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-input/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/time-picker/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/time-picker/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-card/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-card/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/train-category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/train-category/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +91,12 @@
       <workItem from="1726144962776" duration="1904000" />
       <workItem from="1726287834833" duration="2475000" />
       <workItem from="1726462599998" duration="9691000" />
-      <workItem from="1726551949525" duration="8037000" />
+      <workItem from="1726551949525" duration="10551000" />
+      <workItem from="1726636264422" duration="39000" />
+      <workItem from="1727087424390" duration="4510000" />
+      <workItem from="1727157382048" duration="1145000" />
+      <workItem from="1727174536833" duration="964000" />
+      <workItem from="1727242945950" duration="17000" />
     </task>
     <servers />
   </component>
